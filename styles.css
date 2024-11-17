@@ -1,0 +1,4 @@
+/* Hide the footer watermark */
+.vfrc-footer--watermark {
+  display: none !important;
+}
