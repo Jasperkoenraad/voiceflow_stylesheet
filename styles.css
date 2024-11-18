@@ -1,4 +1,5 @@
 /* Targeted styling for just the Assistant messages */
 .vfrc-system-response .vfrc-message {
   background-color: #007bff !important; /* Blue background */
+  color: #FFFFFF /* white text */
 }
