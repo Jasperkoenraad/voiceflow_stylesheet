@@ -4,11 +4,7 @@
   color: #FFFFFF /* white text */
 }
 
-/* Hide the footer watermark (Voiceflow Branding) */
-.vf-footer .vfrc-footer--watermark {
-  display: none !important;
-  visibility: hidden !important;
-  opacity: 0 !important;
-  height: 0 !important;
-  overflow: hidden !important;
+/* Hide the Voiceflow footer watermark */
+.vfrc-footer--watermark {
+    display: none !important;
 }
