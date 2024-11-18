@@ -1,19 +1,4 @@
-/* Hide the footer watermark */
-.vfrc-footer--watermark {
-  display: none !important;
-}
-
-
-/*
-  ASSISTANT RESPONSES
-
-  Customize the style and layout of assistant response messages.
-*/
-
-/* Make the background of assistant responses blue */
-.vfrc-system-response {
+/* Targeted styling for just the Assistant messages */
+.vfrc-system-response .vfrc-message {
   background-color: #007bff !important; /* Blue background */
-  color: #ffffff !important; /* White text for better contrast */
-  border-radius: 10px; /* Optional: Add rounded corners for a cleaner look */
-  padding: 10px; /* Optional: Add padding inside the response */
 }
