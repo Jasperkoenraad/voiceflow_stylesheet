@@ -3,3 +3,10 @@
   background-color: #007bff !important; /* Blue background */
   color: #FFFFFF /* white text */
 }
+
+/* Hide the footer watermark */
+.vfrc-footer--watermark {
+  display: none !important;
+}
+
+
