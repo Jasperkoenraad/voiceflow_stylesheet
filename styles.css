@@ -4,6 +4,12 @@
   color: #FFFFFF /* white text */
 }
 
+/* background color black of user reply */
+.vfrc-user-response .vfrc-message {
+    background-color: #000000 !important;
+}
+
+
 /* Hide the Voiceflow footer watermark */
 .vfrc-footer--watermark {
     display: none !important;
