@@ -2,3 +2,8 @@
 .vfrc-header {
     background-color: red !important;
 }
+
+/* Change the color of messages to blue */
+.vfrc-message {
+    color: blue !important;
+}
