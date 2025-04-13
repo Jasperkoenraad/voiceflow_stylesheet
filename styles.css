@@ -1,9 +1,4 @@
-/* Change font size for all chat text */
-.vfrc-message {
-    font-size: 16px !important;
-}
-
-/* Remove rounded borders from the header */
+/* Change the header background color to red */
 .vfrc-header {
-    border-radius: 0 !important;
+    background-color: red !important;
 }
