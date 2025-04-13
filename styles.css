@@ -1,16 +1,9 @@
-/* Targeted styling for just the Assistant messages */
-.vfrc-system-response .vfrc-message {
-  background-color: #000000 !important; /* Blue background */
-  color: #FFFFFF /* white text */
+/* Change font size for all chat text */
+.vfrc-message {
+    font-size: 16px !important;
 }
 
-/* background color black of user reply */
-.vfrc-user-response .vfrc-message {
-    background-color: #000000 !important;
-}
-
-
-/* Hide the Voiceflow footer watermark */
-.vfrc-footer--watermark {
-    display: none !important;
+/* Remove rounded borders from the header */
+.vfrc-header {
+    border-radius: 0 !important;
 }
