@@ -28,13 +28,25 @@
 
 /* 4. Increase size of voice and send icons */
 .vfrc-chat-input--button svg {
-  width: 26px !important;
-  height: 26px !important;
+  width: 50px !important;
+  height: 50px !important;
 }
 .vfrc-chat-input--button {
   padding: 10px !important;
 }
 
+/* 5. Footer watermark font size */
 .vfrc-footer--watermark {
   font-size: 16px !important;
+}
+
+/* 6. Increase size of audio icon inside buttons */
+.vfrc-icon svg {
+  width: 32px !important;
+  height: 32px !important;
+}
+
+/* Optional: increase padding around icon for larger click area */
+.vfrc-icon {
+  padding: 4px !important;
 }
