@@ -102,7 +102,7 @@
 
 /* 7.2 Insert fake text over the button */
 .vfrc-prompt .vfrc-button[label="Start new chat"]::after {
-  content: "Cancel Tour";
+  content: "Cancel Tour / Tour Stoppen";
   color: white;
   font-size: 16px;
   position: absolute;
@@ -112,3 +112,20 @@
   pointer-events: none;
 }
 
+/* 8. Visually replace the "Cancel" button text with "Continue / Hervatten" */
+.vfrc-prompt .vfrc-button[label="Cancel"] {
+  position: relative;
+  color: transparent !important;
+}
+
+/* 8.1 Insert fake text */
+.vfrc-prompt .vfrc-button[label="Cancel"]::after {
+  content: "Continue / Hervatten";
+  color: #000;
+  font-size: 16px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+}
