@@ -49,13 +49,37 @@
   padding: 4px !important;
 }
 
-/* 7. Force increase size of header icons, overriding inline SVG attributes */
+/* Ensure the header button is square and centers its contents */
+.vfrc-header--button {
+  width: 40px !important;
+  height: 40px !important;
+  padding: 0 !important;
+  margin: 0 4px !important; /* optional spacing between buttons */
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  line-height: 0 !important; /* prevent text alignment issues */
+}
+
+/* Ensure the icon fills the space and is centered */
+.vfrc-header--button .vfrc-icon {
+  width: 30px !important;
+  height: 30px !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+/* Force SVG to take exact size */
 .vfrc-header--button .vfrc-icon svg {
   width: 30px !important;
   height: 30px !important;
-  max-width: none !important;
-  max-height: none !important;
   min-width: 30px !important;
   min-height: 30px !important;
+  max-width: none !important;
+  max-height: none !important;
+  display: block !important;
 }
 
