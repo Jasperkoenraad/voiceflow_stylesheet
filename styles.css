@@ -35,24 +35,6 @@
   padding: 10px !important;
 }
 
-/* 5. Standardize footer text */
 .vfrc-footer--watermark {
   font-size: 16px !important;
 }
-
-/* 6. Increase microphone (voice) icon size */
-.vfrc-icon svg {
-  width: 32px !important;
-  height: 32px !important;
-}
-
-/* 7. Change color of the send icon */
-#vfrc-send-message svg {
-  color: #0084ff !important;       /* Customize the color here */
-  fill: currentColor !important;   /* Makes it respect the `color` */
-}
-
-#vfrc-send-message:hover svg {
-  color: #005bb5 !important;       /* Optional: hover color */
-}
-
