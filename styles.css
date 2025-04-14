@@ -136,3 +136,8 @@
   color: white !important;
 }
 
+/* 10. Adjust subtitle text in assistant info */
+.vfrc-assistant-info--description {
+  font-size: 30px !important;
+  font-weight: 400 !important;
+  color: #333 !important; /* Optional: Adjust text color */
