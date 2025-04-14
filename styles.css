@@ -153,8 +153,8 @@
 
 /* 12. Customize the image/logo border radius and size of the assistent main image */
 .vfrc-assistant-info .vfrc-avatar {
-  width: 60px !important;
-  height: 60px !important;
+  width: 100px !important;
+  height: 100px !important;
   border-radius: 15px !important;
   object-fit: cover !important;
 }
