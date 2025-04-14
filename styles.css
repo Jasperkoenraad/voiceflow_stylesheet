@@ -19,34 +19,38 @@
   font-size: 16px !important;
 }
 
-/* 3. Increase footer height. 70px, 12px, 12px to reset */
+/* 3. Increase footer height */
 .vf-footer {
   min-height: 70px !important;
   padding-top: 12px !important;
   padding-bottom: 12px !important;
 }
 
-/* 4. Increase size of voice and send icons. 26px to reset */
+/* 4. Increase size of input buttons (send, mic) */
 .vfrc-chat-input--button svg {
-  width: 50px !important;
-  height: 50px !important;
+  width: 26px !important;
+  height: 26px !important;
 }
-.vfrc-chat-input--button. 10px to reset {
+.vfrc-chat-input--button {
   padding: 10px !important;
 }
 
-/* 5. Footer watermark font size. 16px to reset */
+/* 5. Footer watermark font size */
 .vfrc-footer--watermark {
   font-size: 16px !important;
 }
 
-/* 6. Increase size of audio icon inside buttons. 32px to reset */
+/* 6. Increase size of all icons */
 .vfrc-icon svg {
   width: 32px !important;
   height: 32px !important;
 }
-
-/* Optional: increase padding around icon for larger click area. 4px to reset */
 .vfrc-icon {
   padding: 4px !important;
+}
+
+/* 7. Increase size of header icons */
+.vfrc-header--button .vfrc-icon svg {
+  width: 30px !important;
+  height: 30px !important;
 }
