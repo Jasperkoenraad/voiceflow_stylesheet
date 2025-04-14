@@ -136,8 +136,22 @@
   color: white !important;
 }
 
-/* 10. Adjust subtitle text in assistant info */
+/* 10. Customize assistant title */
+.vfrc-assistant-info--title {
+  font-size: 20px !important;    /* Adjust size */
+  font-weight: 700 !important;   /* Bold */
+  color: #000000 !important;     /* Black text - change if needed */
+}
+
+/* 11. Customize assistant subtitle */
 .vfrc-assistant-info--description {
-  font-size: 30px !important;
+  font-size: 16px !important;
   font-weight: 400 !important;
-  color: #333 !important; /* Optional: Adjust text color */
+  color: #444444 !important;     /* Dark grey - optional */
+}
+
+/* 12. Customize the image/logo border radius */
+.vfrc-avatar {
+  border-radius: 15px !important; /* Rounded corners for image */
+}
+
