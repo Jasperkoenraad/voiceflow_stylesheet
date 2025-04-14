@@ -102,7 +102,7 @@
 
 /* 7.2 Insert fake text over the button */
 .vfrc-prompt .vfrc-button[label="Start new chat"]::after {
-  content: "Cancel Tour / Tour Stoppen";
+  content: "Cancel Tour";
   color: white;
   font-size: 16px;
   position: absolute;
@@ -120,7 +120,7 @@
 
 /* 8.1 Insert fake text */
 .vfrc-prompt .vfrc-button[label="Cancel"]::after {
-  content: "Continue / Hervatten";
+  content: "Continue";
   color: #000;
   font-size: 16px;
   position: absolute;
