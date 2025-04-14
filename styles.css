@@ -150,8 +150,10 @@
   color: #444444 !important;     /* Dark grey - optional */
 }
 
-/* 12. Customize the image/logo border radius */
+/* 12. Customize the image/logo border radius and size */
 .vfrc-avatar {
-  border-radius: 15px !important; /* Rounded corners for image */
+  border-radius: 15px !important; /* Rounded corners */
+  width: 60px !important;          /* New width */
+  height: 60px !important;         /* New height */
+  object-fit: cover;               /* Ensures the image scales nicely */
 }
-
