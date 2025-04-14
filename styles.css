@@ -130,20 +130,9 @@
   pointer-events: none;
 }
 
-/* 8. Hide the original SVG icon */
-.vfrc-header--button svg {
-  display: none !important;
-}
-
-/* 8.1 Inject your custom SVG icon */
-.vfrc-header--button::before {
-  content: '';
-  display: inline-block;
-  width: 30px;
-  height: 30px;
-  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' x='0px' y='0px' viewBox='0,0,256,256'><g fill='%23fefbfb' fill-rule='nonzero'><g transform='scale(8,8)'><path d='M16,3c-7.16797,0 -13,5.83203 -13,13c0,7.16797 5.83203,13 13,13c7.16797,0 13,-5.83203 13,-13c0,-7.16797 -5.83203,-13 -13,-13zM16,5c6.08594,0 11,4.91406 11,11c0,6.08594 -4.91406,11 -11,11c-6.08594,0 -11,-4.91406 -11,-11c0,-6.08594 4.91406,-11 11,-11zM12.21875,10.78125l-1.4375,1.4375l3.78125,3.78125l-3.78125,3.78125l1.4375,1.4375l3.78125,-3.78125l3.78125,3.78125l1.4375,-1.4375l-3.78125,-3.78125l3.78125,-3.78125l-1.4375,-1.4375l-3.78125,3.78125z'/></g></g></svg>");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
+/* 9. Change hover color for Send button */
+#vfrc-send-message:hover {
+  background-color: #128c7e !important;
+  color: white !important;
 }
 
