@@ -131,11 +131,11 @@
   pointer-events: none;
 }
 
-/* 9. Change hover color for Send button */
-#vfrc-send-message:hover {
+/* Target the 'Send' button without the '_12m8tlu1' class */
+#vfrc-send-message:not(._12m8tlu1) {
   background-color: #128c7e !important;
-  color: white !important;
 }
+
 
 /* 10. Customize assistant title */
 .vfrc-assistant-info--title {
