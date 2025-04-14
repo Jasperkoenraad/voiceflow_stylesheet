@@ -83,3 +83,12 @@
   display: block !important;
 }
 
+/* 7. Red styling for the "Cancel Tour" button */
+.vfrc-button[label="Start new chat"] {
+  background-color: #e53935 !important;
+  color: white !important;
+  border: none !important;
+  border-radius: 6px !important;
+  padding: 10px 16px !important;
+  font-size: 16px !important;
+}
