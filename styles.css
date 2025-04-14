@@ -159,21 +159,17 @@
 }
 
 /* 13. Customize the buttons*/
-.vfrc-button {
-  font-size: 18px !important;          /* Text size */
-  font-weight: 500 !important;         /* Medium bold text */
-  text-align: left !important;         /* Align text to the left */
-  justify-content: flex-start !important; /* Ensure content is left-aligned in flexbox */
-  padding: 12px 20px !important;       /* Top/bottom + left/right padding */
-  border-radius: 12px !important;      /* Rounded corners */
-  background-color: #f2f2f2 !important; /* Light gray background */
-  color: #333 !important;              /* Dark text */
-  border: 1px solid #ddd !important;   /* Subtle border */
-  transition: all 0.3s ease !important; /* Smooth hover/active animation */
-}
-
-/* 13.1 Active (pressed) state (TEST - IF NOT WORK- DELETE) */
-.vfrc-button:active {
-  background-color: #cdeee7 !important;
-  transform: scale(0.98) !important;   /* Slight button press effect */
+/* Style buttons inside the chat dialog (cards or message responses) */
+.vfrc-chat--dialog .vfrc-button {
+  font-size: 18px !important;
+  font-weight: 500 !important;
+  text-align: left !important;
+  justify-content: flex-start !important;
+  padding: 12px 20px !important;
+  border-radius: 12px !important;
+  background-color: #ff0000 !important;
+  color: #333 !important;
+  border: 1px solid #ddd !important;
+  transition: all 0.3s ease !important;
+  width: 100% !important; /* Optional: make buttons full-width */
 }
