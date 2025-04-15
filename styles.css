@@ -37,11 +37,20 @@
   white-space: normal !important;
   width: 100% !important;
 
-  /* Ensures proper vertical alignment */
+  /* 13.1 Ensures proper vertical alignment for buttons */
   display: flex !important;
   align-items: center !important;
   justify-content: center !important;
+
+  /* 13.2 Smooth hover effect for buttons */
+  transition: background-color 0.3s ease !important;
 }
+
+/* 13.3 Optional hover state for buttons*/
+.vfrc-chat--dialog .vfrc-button:hover {
+  background-color: #0e6d61 !important;
+}
+
 
 
 
