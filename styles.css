@@ -26,32 +26,30 @@
 /* 13. Customize all assistant response buttons inside the chat */
 .vfrc-chat--dialog .vfrc-button {
   font-size: 16px !important;
-  font-weight: 600 !important;
+  font-weight: 500 !important;
   color: #2C323B !important;
-  background: linear-gradient(135deg, #e6e6e6, #d9d9d9) !important;
+  background-color: #d9d9d9 !important;
   border: 1px solid #d9d9d9 !important;
-  border-radius: 8px !important;
+  border-radius: 5px !important;
   padding: 12px 20px !important;
   margin: 8px 0 !important;
   text-align: center !important;
-  white-space: normal !important;
-  width: 100% !important;
+  white-space: nowrap !important; /* Voorkomt regelafbreking */
+  width: 95% !important; /* Iets breder dan 100% zou buiten de container vallen */
 
-  /* 13.1 Ensures proper vertical alignment for buttons */
+  /* Zorgt voor nette uitlijning */
   display: flex !important;
   align-items: center !important;
   justify-content: center !important;
 
-  /* 13.2 Smooth hover effect for buttons */
-  transition: all 0.3s ease !important;
-
-  /* 13.3 Add shadow for depth */
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08) !important;
+  /* Soepele overgang bij hover */
+  transition: background-color 0.3s ease !important;
 }
 
-/* 13.4 Optional hover state for buttons */
+/* Hover effect */
 .vfrc-chat--dialog .vfrc-button:hover {
-  background: linear-gradient(135deg, #cccccc, #d0d0d0) !important;
+  background-color: #0e6d61 !important;
+  color: white !important;
 }
 
 
