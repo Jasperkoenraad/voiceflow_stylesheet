@@ -159,14 +159,3 @@
   object-fit: cover !important;
 }
 
-/* 13. Customize the buttons */
-/* Style buttons inside the chat dialog (cards or message responses) */
-.vfrc-chat--dialog .vfrc-button {
-  font-size: 16px !important;
-  font-weight: 500 !important;
-  border-radius: 12px !important;
-  background-color: #ffffff !important;   /* Background color */
-  color: #ffffff !important;              /* Font color */
-  border: 1px solid #cc0000 !important;   /* Border color */
-}
-
