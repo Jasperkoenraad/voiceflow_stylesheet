@@ -23,7 +23,14 @@
   font-size: 16px !important;
 }
 
-/* 13. Customize all assistant response buttons inside the chat */
+/* 3. Vergroot de container waarin de knoppen zitten */
+.vfrc-chat--dialog {
+  max-width: 400px !important; /* was waarschijnlijk 320px of minder */
+  width: 100% !important;
+  margin: 0 auto !important; /* Centreert de container netjes */
+}
+
+/* 3.1 Knoppen zelf stijlen */
 .vfrc-chat--dialog .vfrc-button {
   font-size: 16px !important;
   font-weight: 500 !important;
@@ -34,23 +41,22 @@
   padding: 12px 20px !important;
   margin: 8px 0 !important;
   text-align: center !important;
-  white-space: nowrap !important; /* Voorkomt regelafbreking */
-  width: 95% !important; /* Iets breder dan 100% zou buiten de container vallen */
+  white-space: nowrap !important; /* Geen afbreking van tekst */
+  width: 100% !important;
 
-  /* Zorgt voor nette uitlijning */
   display: flex !important;
   align-items: center !important;
   justify-content: center !important;
 
-  /* Soepele overgang bij hover */
   transition: background-color 0.3s ease !important;
 }
 
-/* Hover effect */
+/* 3.2 Hover effect */
 .vfrc-chat--dialog .vfrc-button:hover {
   background-color: #0e6d61 !important;
   color: white !important;
 }
+
 
 
 
