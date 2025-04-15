@@ -27,9 +27,9 @@
 .vfrc-chat--dialog .vfrc-button {
   font-size: 16px !important;
   font-weight: 600 !important;
-  color: #ffffff !important;
-  background: linear-gradient(135deg, #00bfa5, #00897b) !important;
-  border: none !important;
+  color: #2C323B !important;
+  background: linear-gradient(135deg, #e6e6e6, #d9d9d9) !important;
+  border: 1px solid #d9d9d9 !important;
   border-radius: 8px !important;
   padding: 12px 20px !important;
   margin: 8px 0 !important;
@@ -46,13 +46,14 @@
   transition: all 0.3s ease !important;
 
   /* 13.3 Add shadow for depth */
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15) !important;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08) !important;
 }
 
 /* 13.4 Optional hover state for buttons */
 .vfrc-chat--dialog .vfrc-button:hover {
-  background: linear-gradient(135deg, #009688, #00695c) !important;
+  background: linear-gradient(135deg, #cccccc, #d0d0d0) !important;
 }
+
 
 
 
