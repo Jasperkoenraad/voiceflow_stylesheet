@@ -159,3 +159,9 @@
   object-fit: cover !important;
 }
 
+/* 13. Hide card background */
+.vfrc-card {
+  background-color: transparent !important;
+  box-shadow: none !important; /* optioneel: verwijdert eventuele schaduw */
+}
+
