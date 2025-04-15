@@ -23,50 +23,17 @@
   font-size: 16px !important;
 }
 
-/* 3. Vergroot de container waarin de knoppen zitten */
-.vfrc-chat--dialog {
-  max-width: 400px !important; /* was waarschijnlijk 320px of minder */
-  width: 100% !important;
-  margin: 0 auto !important; /* Centreert de container netjes */
-}
-
-/* 3.1 Knoppen zelf stijlen */
-.vfrc-chat--dialog .vfrc-button {
-  font-size: 16px !important;
-  font-weight: 500 !important;
-  color: #2C323B !important;
-  background-color: #d9d9d9 !important;
-  border: 1px solid #d9d9d9 !important;
-  border-radius: 5px !important;
-  padding: 12px 20px !important;
-  margin: 8px 0 !important;
-  text-align: center !important;
-  white-space: nowrap !important; /* Geen afbreking van tekst */
-  width: 100% !important;
-
-  display: flex !important;
-  align-items: center !important;
-  justify-content: center !important;
-
-  transition: background-color 0.3s ease !important;
-}
-
-/* 3.2 Hover effect */
-.vfrc-chat--dialog .vfrc-button:hover {
-  background-color: #0e6d61 !important;
-  color: white !important;
-}
-
-
-
-
-
 
 /* 2.1 Set font size for user responses */
 .vfrc-user-response {
   font-size: 16px !important;
 }
 
+/* 2.2 Knoppen text grootte */
+.vfrc-chat--dialog .vfrc-button {
+  font-size: 16px !important;
+  margin: 8px 0 !important;
+}
 
 /* 3. Increase footer height */
 .vf-footer {
