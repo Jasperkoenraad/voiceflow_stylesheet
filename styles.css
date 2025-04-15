@@ -13,12 +13,37 @@
 .vfrc-message__text,
 .vfrc-input,
 .vfrc-chat-input,
-.vfrc-button__label {
+.vfrc-button__label,
+.vfrc-user-response {
   font-size: 16px !important;
 }
+
 .vfrc-chat-input::placeholder {
   font-size: 16px !important;
 }
+
+/* 13. Customize all assistant response buttons inside the chat */
+.vfrc-chat--dialog .vfrc-button {
+  font-size: 16px !important;           /* Text size */
+  font-weight: 500 !important;          /* Font weight */
+  color: #ffffff !important;            /* Font color */
+  background-color: #128c7e !important; /* Background color */
+  border: 1px solid #0e6d61 !important; /* Border color */
+  border-radius: 10px !important;       /* Rounded corners */
+  padding: 10px 16px !important;        /* Padding inside button */
+  margin: 6px 0 !important;             /* Space between buttons */
+  text-align: center !important;        /* Align text */
+  white-space: normal !important;       /* Allow multi-line text */
+  width: 100% !important;               /* Full-width layout */
+}
+
+
+
+/* 2.1 Set font size for user responses */
+.vfrc-user-response {
+  font-size: 16px !important;
+}
+
 
 /* 3. Increase footer height */
 .vf-footer {
@@ -159,9 +184,9 @@
   object-fit: cover !important;
 }
 
-/* 13. Hide card background */
+/* 13. card background */
 .vfrc-card {
-  background-color: transparent !important;
+  background-color: #f2f2f2 !important;
   box-shadow: none !important; /* optioneel: verwijdert eventuele schaduw */
 }
 
