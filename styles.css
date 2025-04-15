@@ -181,21 +181,51 @@
 }
 
 
-/* 14. TEST - HEADER - TEST - Modern UI header styling */
+/* 14. Custom header design */
 .vfrc-header {
-  background: linear-gradient(to right, #1e1e2f, #2c2c3e) !important;
-  padding: 10px 20px !important;
-  border-radius: 12px !important;
-  display: flex !important;
-  align-items: center !important;
-  justify-content: space-between !important;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15) !important;
+  background: linear-gradient(to right, #128c7e, #0e6d61);
+  padding: 12px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top-left-radius: 0 !important;
+  border-top-right-radius: 0 !important;
+  border-bottom-left-radius: 12px !important;
+  border-bottom-right-radius: 12px !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
 }
 
-/* 14.1 - HEADER - TEST - Logo / avatar */
+/* 14.1 Logo image inside the header */
 .vfrc-header .vfrc-avatar {
-  width: 48px !important;
-  height: 48px !important;
-  border-radius: 12px !important;
-  margin-right: 12px !important;
+  width: 50px !important;
+  height: 50px !important;
+  border-radius: 15px !important;
 }
+
+/* 14.2 App title next to logo */
+.vfrc-header--title {
+  font-size: 20px !important;
+  font-weight: 600 !important;
+  color: white !important;
+  margin-left: 12px !important;
+}
+
+/* 14.3 Buttons (mute, close, etc.) */
+.vfrc-header--button {
+  background: transparent !important;
+  border: none !important;
+  width: 40px !important;
+  height: 40px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  padding: 0 !important;
+  margin-left: 8px !important;
+}
+
+.vfrc-header--button .vfrc-icon svg {
+  width: 28px !important;
+  height: 28px !important;
+  fill: white !important;
+}
+
