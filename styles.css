@@ -212,7 +212,7 @@
 }
 
 .markdown p:has(audio) {
-  background-color: #f2f2f2;
+  background-color: #000000;
   padding: 16px;
   border-radius: 12px;
   margin: 10px 0;
