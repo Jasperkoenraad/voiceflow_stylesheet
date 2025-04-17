@@ -205,18 +205,17 @@
   font-size: 16px !important;
 }
 
-/* 16. Aanpassen audio */
+/* 16. Aanpassen blok audio */
 .markdown audio {
-  width: 100% !important;
   border-radius: 8px;
-  background-color: #fff200 !important; /* felgeel */
+  background-color: #fff;
 }
 
-/* Let op: :has() werkt alleen in moderne browsers zoals Chrome, Safari, Edge */
 .markdown p:has(audio) {
-  background-color: #ff4d4d !important; /* rood */
+  background-color: #f2f2f2;
   padding: 16px;
   border-radius: 12px;
   margin: 10px 0;
 }
+
 
