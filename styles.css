@@ -180,16 +180,28 @@
   box-shadow: none !important; /* optioneel: verwijdert eventuele schaduw */
 }
 
-/* 14. Verbreden van kaarttekst */
+/* 14. Maak de volledige kaart breder */
+.vfrc-card {
+  max-width: 95% !important;
+  width: 95% !important;
+  margin: 0 auto !important;
+  background-color: #f2f2f2 !important; /* optioneel, mocht je dit willen behouden */
+  box-shadow: none !important;
+}
+
+/* 15. Vergroot de breedte van de kaartinhoud en tekst */
 .vfrc-card--content,
 .vfrc-card--description {
   max-width: 100% !important;
   width: 100% !important;
-  padding-right: 12px !important;
-  padding-left: 12px !important;
+  padding-left: 16px !important;
+  padding-right: 16px !important;
 }
 
+/* 16. Zorg dat paragrafen goed doorlopen en leesbaar zijn */
 .vfrc-card--description p {
   white-space: normal !important;
   line-height: 1.6 !important;
+  font-size: 16px !important;
 }
+
