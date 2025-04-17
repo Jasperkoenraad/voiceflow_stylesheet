@@ -208,11 +208,11 @@
 /* 16. Aanpassen blok audio */
 .markdown audio {
   border-radius: 8px;
-  background-color: #fff;
+  background-color: #ffffff;
 }
 
 .markdown p:has(audio) {
-  background-color: #f2f2f2;
+  background-color: #ffffff;
   padding: 16px;
   border-radius: 12px;
   margin: 10px 0;
