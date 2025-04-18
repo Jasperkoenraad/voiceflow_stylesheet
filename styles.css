@@ -180,3 +180,6 @@
   box-shadow: none !important; /* optioneel: verwijdert eventuele schaduw */
 }
 
+/* 14. Sizing audio player */
+.vfrc-card--content audio {
+  width: 80% !important; /* or 100%, or any value you prefer */
