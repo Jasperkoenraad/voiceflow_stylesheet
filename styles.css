@@ -174,11 +174,6 @@
   object-fit: cover !important;
 }
 
-/* 13. card background */
-.vfrc-card {
-  background-color: #f2f2f2 !important;
-  box-shadow: none !important; /* optioneel: verwijdert eventuele schaduw */
-}
 
 /* 14. Sizing card - description and audio player */
 .vfrc-card--description {
@@ -187,5 +182,11 @@
   text-align: center !important; /* Ensures audio aligns nicely */
 }
 
+.vfrc-card--content {
+  padding-top: 4px !important;
+  padding-right: 8px !important;
+  padding-bottom: 4px !important;
+  padding-left: 8px !important;
+}
 
 
