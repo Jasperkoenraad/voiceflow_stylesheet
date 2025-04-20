@@ -194,4 +194,10 @@
   padding-left: 8px !important;
 }
 
-
+/* 15. Make the input field background transparent */
+.vfrc-chat-input {
+  background-color: transparent !important;
+  color: #000 !important; /* Optional: change as needed for visibility */
+  border: none !important; /* Optional: remove border */
+  box-shadow: none !important; /* Optional: remove shadow */
+}
