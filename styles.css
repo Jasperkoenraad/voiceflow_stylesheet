@@ -1,8 +1,8 @@
 /* --- Voiceflow Customizations --- */
 /* --- https://jasperkoenraad.github.io/voiceflow_stylesheet/styles.css --- */
 
-/* 0.1 Background image for the full chat area */
-.vfrc-chat.s9t60i0 {
+/* 0.1 Background image for the entire chat container */
+.vfrc-chat {
   position: relative;
   background-image: url('https://32fdf4f59816823c51375ae66d11c5c6.cdn.bubble.io/f1745188974162x896383991167130200/ChatGPT%20Image%2021%20apr%202025%2C%2000_42_33.png');
   background-size: cover;
@@ -10,20 +10,21 @@
   background-repeat: no-repeat;
 }
 
-/* 0.1 Optional overlay for readability */
-.vfrc-chat.s9t60i0::before {
+/* Optional overlay to improve readability */
+.vfrc-chat::before {
   content: "";
   position: absolute;
   top: 0; left: 0; right: 0; bottom: 0;
-  background: rgba(255, 255, 255, 0.25); /* Transparent white overlay */
+  background: rgba(255, 255, 255, 0.25); /* 25% wit transparant */
   z-index: 0;
 }
 
-/* 0.1 Ensure chat content stays on top */
-.vfrc-chat.s9t60i0 > * {
+/* Ensure all content stays on top of the background */
+.vfrc-chat > * {
   position: relative;
   z-index: 1;
 }
+
 
 
 
