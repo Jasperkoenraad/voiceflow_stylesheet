@@ -261,3 +261,42 @@
   background-color: #005599 !important;
   color: #ffffff !important;
 }
+
+/* 17. AUDIO BLOCk styling binnen kaarten */
+.vfrc-card--content .audio-block {
+  background-color: #f7f7f7 !important;
+  border-radius: 12px !important;
+  padding: 16px !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05) !important;
+  text-align: center !important;
+  margin: 16px auto !important;
+  max-width: 500px !important;
+  color: #333 !important;
+  font-size: 15px !important;
+}
+
+/* 17. Zorg dat de <p> erboven mooi wordt gestyled */
+.vfrc-card--content .audio-block p {
+  margin-bottom: 8px !important;
+  color: #333 !important;
+  font-size: 15px !important;
+}
+
+/* 17. Audio player zelf */
+.vfrc-card--content .audio-block audio {
+  width: 100% !important;
+  max-width: 400px !important;
+  border-radius: 6px !important;
+  appearance: none !important;
+  -webkit-appearance: none !important;
+  background-color: transparent !important;
+}
+
+/* 17. Verberg extra controls */
+.vfrc-card--content .audio-block audio::-webkit-media-controls-timeline,
+.vfrc-card--content .audio-block audio::-webkit-media-controls-volume-slider,
+.vfrc-card--content .audio-block audio::-webkit-media-controls-mute-button,
+.vfrc-card--content .audio-block audio::-webkit-media-controls-playback-rate {
+  display: none !important;
+}
+
