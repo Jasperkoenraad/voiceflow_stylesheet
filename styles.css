@@ -25,67 +25,6 @@
   z-index: 1;
 }
 
-/* 0.2 Transparante of gekleurde achtergrond voor kaarten (card container én binnenkant) */
-
-/* Container van de kaart */
-.vfrc-card {
-  background-color: rgba(255, 255, 255, 1.0) !important;
-  border-radius: 12px !important;
-  padding: 12px !important;
-  margin-bottom: 12px !important;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05) !important;
-}
-
-/* Binnenkant van de kaart (tekstinhoud) */
-.vfrc-card--content,
-.vfrc-card--description,
-.vfrc-card--header {
-  background-color: rgba(255, 255, 255, 0.0) !important; /* optioneel transparant */
-  color: #000000 !important;
-}
-
-/* 0.3 Transparante of gekleurde achtergrond voor systeemberichten (container én bubble) */
-
-/* Container van systeembericht */
-.vfrc-system-response {
-  background-color: rgba(255, 255, 255, 1.0) !important;
-  border-radius: 12px !important;
-  padding: 12px !important;
-  margin-bottom: 12px !important;
-}
-
-/* Eigenlijke chatballon van systeem (tekstgedeelte) */
-.vfrc-message,
-.vfrc-message__text,
-.vfrc-message .markdown,
-.vfrc-message .markdown p {
-  background-color: rgba(255, 255, 255, 1.0) !important;
-  border-radius: 12px !important;
-  padding: 0 !important;
-  box-shadow: none !important;
-  color: #000000 !important;
-}
-
-/* 0.3.1 Gebruikers-chat (container én ballon) */
-
-/* Container van gebruikersbericht */
-.vfrc-user-response {
-  background-color: rgba(255, 255, 255, 1.0) !important;
-  border-radius: 12px !important;
-  padding: 12px !important;
-  margin-bottom: 12px !important;
-}
-
-/* Tekstballon binnen de container */
-.vfrc-user-response > div {
-  background-color: rgba(255, 255, 255, 1.0) !important;
-  padding: 0 !important;
-  color: #000000 !important;
-  box-shadow: none !important;
-}
-
-
-
 /* 0. Zwarte achtergrond voor de header */
 .vfrc-header {
   background-color: #072130 !important;
