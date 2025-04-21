@@ -55,6 +55,11 @@
   padding: 0 16px !important;    /* Voeg wat horizontale marge toe zodat tekst niet tegen de rand zit */
 }
 
+/* 0.3.1 Verberg avatar bij systeemberichten die geen kaart bevatten */
+.vfrc-system-response:not(:has(.vfrc-card)) .vfrc-avatar {
+  display: none !important;
+}
+
 
 /* 0. Zwarte achtergrond voor de header */
 .vfrc-header {
