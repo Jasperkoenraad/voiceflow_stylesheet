@@ -226,23 +226,7 @@
   text-align: left !important;
 }
 
-/* 14.1 Reset p-tags die audio bevatten */
-.vfrc-card--description p {
-  margin: 0 !important;
-  padding: 0 !important;
-}
 
-/* 14.2 Audioplayer styling */
-.vfrc-card--description audio {
-  display: block !important;
-  width: 100% !important;
-  max-width: 100% !important;
-  height: 40px !important;
-  margin-top: 10px !important;
-  visibility: visible !important;
-  opacity: 1 !important;
-  background: transparent !important;
-}
 
 
 /* 15. Make the input field background transparent */
