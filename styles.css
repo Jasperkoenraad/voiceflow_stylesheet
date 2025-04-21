@@ -42,7 +42,7 @@
   width: 100% !important;
 }
 
-/* 0.3 Zorg dat systeemberichten (zoals tekstballonnen) dezelfde breedte en horizontale uitlijning hebben als cards */
+/* 0.3 Zorg dat systeemberichten (zoals tekstballonnen) breder en netjes gecentreerd zijn */
 .vfrc-system-response {
   display: flex !important;
   justify-content: center !important;
@@ -50,8 +50,9 @@
 
 .vfrc-system-response .vfrc-message,
 .vfrc-system-response .vfrc-message .markdown {
-  max-width: 90% !important;
+  max-width: 100% !important;    /* Gebruik volledige breedte container */
   width: 100% !important;
+  padding: 0 16px !important;    /* Voeg wat horizontale marge toe zodat tekst niet tegen de rand zit */
 }
 
 
