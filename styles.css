@@ -25,7 +25,7 @@
   z-index: 1;
 }
 
-/* 0. Zwarte achtergrond voor de header */
+/* 0. Achtergrond kleur voor de header */
 .vfrc-header {
   background-color: #072130 !important;
 }
@@ -52,13 +52,7 @@
   font-size: 16px !important;
 }
 
-
-/* 2.1 Set font size for user responses */
-.vfrc-user-response {
-  font-size: 16px !important;
-}
-
-/* 2.2 Knoppen text grootte */
+/* 2.1 Knoppen text grootte */
 .vfrc-chat--dialog .vfrc-button {
   font-size: 16px !important;
   margin: 5px 0 !important;
@@ -184,7 +178,7 @@
 #vfrc-start-chat {
   position: relative;
   color: transparent !important;           /* Verberg originele tekst */
-  background-color: #128c7e !important;    /* Groenblauwe achtergrond */
+  background-color: #072130 !important;    /* Groenblauwe achtergrond */
   border: none !important;
   border-radius: 6px !important;
   padding: 10px 16px !important;
@@ -226,14 +220,22 @@
   object-fit: cover !important;
 }
 
-
 /* 14. Sizing card - description and audio player */
 .vfrc-card--description {
   margin: 0 auto !important;
   padding: 10px 0 !important;
-  text-align: center !important; /* Ensures audio aligns nicely */
+  text-align: center !important; /* Ensures non-audio content aligns nicely */
 }
 
+/* 14.1 Align audio player inside card description */
+.vfrc-card--description audio {
+  display: block !important;
+  margin: 0 auto 0 0 !important;   /* Aligns to the left */
+  width: 100% !important;          /* Stretches full width of card */
+  max-width: 100% !important;      /* Prevents overflow */
+}
+
+/* 14.2 Padding inside card container */
 .vfrc-card--content {
   padding-top: 4px !important;
   padding-right: 8px !important;
