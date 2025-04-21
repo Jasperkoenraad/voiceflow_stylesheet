@@ -30,17 +30,16 @@
   display: none !important;
 }
 
-/*0.2 Center the card inside its container (toon in het midden van het scherm) */
-.vfrc-system-response .vfrc-card {
-  margin-left: auto !important;
-  margin-right: auto !important;
+/* 0.2 Center only system-response containers that contain a card */
+.vfrc-system-response:has(.vfrc-card) {
+  display: flex !important;
+  justify-content: center !important;
 }
 
-/*0.2 Adjust card width */
+/* 0.2.1 Center the card inside and limit width */
 .vfrc-system-response .vfrc-card {
-  margin-left: auto !important;
-  margin-right: auto !important;
-  max-width: 90% !important; /* or use 600px etc. */
+  max-width: 90% !important;
+  width: 100% !important;
 }
 
 
