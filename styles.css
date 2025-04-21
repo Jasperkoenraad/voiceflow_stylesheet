@@ -25,6 +25,25 @@
   z-index: 1;
 }
 
+/* 0.2 Hide avatar if it's inside a system response that contains a card */
+.vfrc-system-response:has(.vfrc-card) .vfrc-avatar {
+  display: none !important;
+}
+
+/*0.2 Center the card inside its container (toon in het midden van het scherm) */
+.vfrc-system-response .vfrc-card {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/*0.2 Adjust card width */
+.vfrc-system-response .vfrc-card {
+  margin-left: auto !important;
+  margin-right: auto !important;
+  max-width: 90% !important; /* or use 600px etc. */
+}
+
+
 /* 0. Zwarte achtergrond voor de header */
 .vfrc-header {
   background-color: #072130 !important;
