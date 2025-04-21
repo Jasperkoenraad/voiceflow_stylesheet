@@ -25,6 +25,34 @@
   z-index: 1;
 }
 
+/* 0.2 Transparante of gekleurde achtergrond voor kaarten (cards) */
+.vfrc-card {
+  background-color: rgba(255, 255, 255, 0.0) !important; /* Witte achtergrond, 60% dekking */
+  border-radius: 12px !important;
+  padding: 12px !important;
+  margin-bottom: 12px !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05) !important;
+}
+
+/* 0.3 Transparante of gekleurde achtergrond voor chatballonnen */
+.vfrc-message__text,
+.vfrc-system-response {
+  background-color: rgba(255, 255, 255, 0.0) !important; /* Witte systeem-chat, 60% dekking */
+  border-radius: 12px !important;
+  padding: 12px !important;
+  margin-bottom: 12px !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05) !important;
+}
+
+/* 0.3.1 Gebruikers-chatballon (user response) apart gestyled */
+.vfrc-user-response {
+  background-color: rgba(0, 51, 102, 0.0) !important; /* Donkerblauw met transparantie */
+  color: white !important;
+  border-radius: 12px !important;
+  padding: 12px !important;
+  margin-bottom: 12px !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05) !important;
+}
 
 
 
