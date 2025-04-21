@@ -262,7 +262,9 @@
   color: #ffffff !important;
 }
 
-/* 16.2 Remove description padding when there is a audio */
-.vfrc-card--description:has(audio) {
+/* 16.2 Remove description padding when there is an audio or video */
+.vfrc-card--description:has(audio),
+.vfrc-card--description:has(video) {
   padding: 0 !important;
 }
+
