@@ -31,7 +31,7 @@
   border-radius: 12px !important;
   padding: 12px !important;
   margin-bottom: 12px !important;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05) !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.00) !important;
 }
 
 /* 0.3 Transparante of gekleurde achtergrond voor chatballonnen */
@@ -41,7 +41,7 @@
   border-radius: 12px !important;
   padding: 12px !important;
   margin-bottom: 12px !important;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05) !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.00) !important;
 }
 
 /* 0.3.1 Gebruikers-chatballon (user response) apart gestyled */
@@ -51,7 +51,7 @@
   border-radius: 12px !important;
   padding: 12px !important;
   margin-bottom: 12px !important;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05) !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.00) !important;
 }
 
 
