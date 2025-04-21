@@ -1,7 +1,7 @@
 /* --- Voiceflow Customizations --- */
 /* --- https://jasperkoenraad.github.io/voiceflow_stylesheet/styles.css --- */
 
-/* 0.1 Background image for the entire chat container */
+/* 0.1 Background image for the entire chat */
 .vfrc-chat {
   position: relative;
   background-image: url('https://32fdf4f59816823c51375ae66d11c5c6.cdn.bubble.io/f1745233877682x368731426284088400/Achtergrond_image.png');
@@ -29,7 +29,7 @@
 
 /* Container van de kaart */
 .vfrc-card {
-  background-color: rgba(255, 255, 255, 0.4) !important;
+  background-color: rgba(255, 255, 255, 1.0) !important;
   border-radius: 12px !important;
   padding: 12px !important;
   margin-bottom: 12px !important;
