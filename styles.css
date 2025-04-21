@@ -34,25 +34,31 @@
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05) !important;
 }
 
-/* 0.3 Transparante of gekleurde achtergrond voor chatballonnen */
+/* 0.3 Transparante of gekleurde achtergrond voor systeem-chatballonnen */
+.vfrc-message,
 .vfrc-message__text,
-.vfrc-system-response {
-  background-color: rgba(255, 255, 255, 0.0) !important; /* Witte systeem-chat, 60% dekking */
+.vfrc-system-response,
+.vfrc-message .markdown,
+.vfrc-message .markdown p {
+  background-color: rgba(255, 255, 255, 0.0) !important; /* Volledig transparant */
   border-radius: 12px !important;
   padding: 12px !important;
   margin-bottom: 12px !important;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.00) !important;
+  box-shadow: none !important;
+  color: #000000 !important; /* Zwarte tekst */
 }
 
-/* 0.3.1 Gebruikers-chatballon (user response) apart gestyled */
-.vfrc-user-response {
-  background-color: rgba(0, 51, 102, 0.0) !important; /* Donkerblauw met transparantie */
-  color: white !important;
+/* 0.3.1 Gebruikers-chatballon (user response) volledig transparant */
+.vfrc-user-response,
+.vfrc-user-response > div {
+  background-color: rgba(0, 51, 102, 0.0) !important; /* Donkerblauw, volledig transparant */
   border-radius: 12px !important;
   padding: 12px !important;
   margin-bottom: 12px !important;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.00) !important;
+  box-shadow: none !important;
+  color: #000000 !important; /* Zwarte tekst */
 }
+
 
 
 
