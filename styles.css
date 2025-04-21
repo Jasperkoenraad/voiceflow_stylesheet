@@ -40,7 +40,7 @@
 .vfrc-card--content,
 .vfrc-card--description,
 .vfrc-card--header {
-  background-color: rgba(255, 255, 255, 1.0) !important; /* optioneel transparant */
+  background-color: rgba(255, 255, 255, 0.0) !important; /* optioneel transparant */
   color: #000000 !important;
 }
 
@@ -48,7 +48,7 @@
 
 /* Container van systeembericht */
 .vfrc-system-response {
-  background-color: rgba(255, 255, 255, 0.4) !important;
+  background-color: rgba(255, 255, 255, 1.0) !important;
   border-radius: 12px !important;
   padding: 12px !important;
   margin-bottom: 12px !important;
@@ -70,7 +70,7 @@
 
 /* Container van gebruikersbericht */
 .vfrc-user-response {
-  background-color: rgba(255, 255, 255, 0.4) !important;
+  background-color: rgba(255, 255, 255, 1.0) !important;
   border-radius: 12px !important;
   padding: 12px !important;
   margin-bottom: 12px !important;
