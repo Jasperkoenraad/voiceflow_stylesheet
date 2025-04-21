@@ -251,3 +251,28 @@
   border: none !important; /* Optional: remove border */
   box-shadow: none !important; /* Optional: remove shadow */
 }
+
+/* 16. Card button styling (e.g., language selection) */
+.vfrc-chat--dialog .vfrc-button {
+  font-size: 16px !important;
+  margin: 8px 0 !important;
+  padding: 12px 20px !important;
+  background-color: #003366 !important;
+  color: #ffffff !important;
+  font-weight: 600 !important;
+  border: none !important;
+  border-radius: 30px !important;
+  text-align: center !important;
+  width: 100% !important;
+
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  transition: background-color 0.3s ease !important;
+}
+
+/* 16.1 Hover effect */
+.vfrc-chat--dialog .vfrc-button:hover {
+  background-color: #005599 !important;
+  color: #ffffff !important;
+}
