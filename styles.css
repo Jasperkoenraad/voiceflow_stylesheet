@@ -223,8 +223,9 @@
 /* 14. Sizing card - description and audio player */
 .vfrc-card--description {
   margin: 0 auto !important;
-  padding: 10px 0 !important;
-  text-align: left !important; /* Align text left for audio */
+  padding: 10px !important;
+  text-align: left !important; /* Links uitgelijnd voor audio */
+  overflow: visible !important; /* Zorg dat niets wordt afgesneden */
 }
 
 /* 14.1 Align audio player inside card description */
@@ -232,13 +233,14 @@
   display: block !important;
   width: 100% !important;
   max-width: 100% !important;
-  margin: 10px 0 !important; /* Top and bottom margin for spacing */
-  opacity: 1 !important; /* Ensures it's visible */
+  margin: 10px 0 !important; /* Boven/onder wat ruimte */
+  box-sizing: border-box !important; /* Voorkomt dat breedte + padding > 100% wordt */
 }
 
 /* 14.2 Padding inside card container */
 .vfrc-card--content {
-  padding: 8px !important;
+  padding: 0 8px 8px 8px !important; /* Minder padding boven voor betere uitlijning */
+  box-sizing: border-box !important;
 }
 
 
