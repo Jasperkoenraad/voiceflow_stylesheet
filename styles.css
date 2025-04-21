@@ -264,13 +264,16 @@
 
 /* 17 AUDIO BLOCK: donkerblauwe variant */
 .vfrc-card--content .audio-block.dark {
-  background-color: #003366 !important;
+  background-color: #005599 !important;
   border-radius: 12px !important;
   padding: 16px !important;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1) !important;
   text-align: center !important;
-  margin: 16px auto !important;
-  max-width: 500px !important;
+  margin-top: 8px !important;
+  margin-bottom: 15px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  max-width: 800px !important;
   color: #ffffff !important;
   font-size: 15px !important;
 }
