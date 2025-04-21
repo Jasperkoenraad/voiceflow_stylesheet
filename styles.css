@@ -262,8 +262,9 @@
   color: #ffffff !important;
 }
 
-/* 17 AUDIO BLOCK: donkerblauwe variant */
-.vfrc-card--content .audio-block.dark {
+/* 17 AUDIO BLOCK: donkerblauwe variant via class of automatisch via :has(audio) */
+.vfrc-card--content .audio-block.dark,
+.vfrc-card--content:has(audio) {
   background-color: #005599 !important;
   border-radius: 12px !important;
   padding: 16px !important;
@@ -279,14 +280,16 @@
 }
 
 /* 17 Titel erboven */
-.vfrc-card--content .audio-block.dark p {
+.vfrc-card--content .audio-block.dark p,
+.vfrc-card--content:has(audio) p {
   margin-bottom: 8px !important;
   color: #ffffff !important;
   font-size: 15px !important;
 }
 
 /* 17 Audio player zelf */
-.vfrc-card--content .audio-block.dark audio {
+.vfrc-card--content .audio-block.dark audio,
+.vfrc-card--content:has(audio) audio {
   width: 100% !important;
   max-width: 400px !important;
   border-radius: 6px !important;
@@ -295,11 +298,15 @@
   background-color: transparent !important;
 }
 
-/* 17 Verberg extra controls */
+/* 17 Verberg extra audio controls (samengevoegd) */
 .vfrc-card--content .audio-block.dark audio::-webkit-media-controls-timeline,
 .vfrc-card--content .audio-block.dark audio::-webkit-media-controls-volume-slider,
 .vfrc-card--content .audio-block.dark audio::-webkit-media-controls-mute-button,
-.vfrc-card--content .audio-block.dark audio::-webkit-media-controls-playback-rate {
+.vfrc-card--content .audio-block.dark audio::-webkit-media-controls-playback-rate,
+.vfrc-card--content:has(audio) audio::-webkit-media-controls-timeline,
+.vfrc-card--content:has(audio) audio::-webkit-media-controls-volume-slider,
+.vfrc-card--content:has(audio) audio::-webkit-media-controls-mute-button,
+.vfrc-card--content:has(audio) audio::-webkit-media-controls-playback-rate {
   display: none !important;
 }
 
