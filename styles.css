@@ -224,24 +224,23 @@
 .vfrc-card--description {
   margin: 0 auto !important;
   padding: 10px 0 !important;
-  text-align: center !important; /* Ensures non-audio content aligns nicely */
+  text-align: left !important; /* Align text left for audio */
 }
 
 /* 14.1 Align audio player inside card description */
 .vfrc-card--description audio {
   display: block !important;
-  margin: 0 auto 0 0 !important;   /* Aligns to the left */
-  width: 100% !important;          /* Stretches full width of card */
-  max-width: 100% !important;      /* Prevents overflow */
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 10px 0 !important; /* Top and bottom margin for spacing */
+  opacity: 1 !important; /* Ensures it's visible */
 }
 
 /* 14.2 Padding inside card container */
 .vfrc-card--content {
-  padding-top: 4px !important;
-  padding-right: 8px !important;
-  padding-bottom: 4px !important;
-  padding-left: 8px !important;
+  padding: 8px !important;
 }
+
 
 /* 15. Make the input field background transparent */
 .vfrc-chat-input {
