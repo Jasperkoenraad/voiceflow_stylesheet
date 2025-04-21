@@ -258,8 +258,11 @@
 
 /* 16.1 Hover effect */
 .vfrc-chat--dialog .vfrc-button:hover {
-  background-color: #005599 !important;
+  background-color: #003366 !important;
   color: #ffffff !important;
 }
 
-
+/* 16.2 Remove description padding when there is a audio */
+.vfrc-card--description:has(audio) {
+  padding: 0 !important;
+}
