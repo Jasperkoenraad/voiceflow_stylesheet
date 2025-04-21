@@ -25,42 +25,6 @@
   z-index: 1;
 }
 
-/* 0.2 Hide avatar if it's inside a system response that contains a card */
-.vfrc-system-response:has(.vfrc-card) .vfrc-avatar {
-  display: none !important;
-}
-
-/* 0.2 Center only system-response containers that contain a card */
-.vfrc-system-response:has(.vfrc-card) {
-  display: flex !important;
-  justify-content: center !important;
-}
-
-/* 0.2.1 Center the card inside and limit width */
-.vfrc-system-response .vfrc-card {
-  max-width: 90% !important;
-  width: 100% !important;
-}
-
-/* 0.3 Zorg dat systeemberichten (zoals tekstballonnen) breder en netjes gecentreerd zijn */
-.vfrc-system-response {
-  display: flex !important;
-  justify-content: center !important;
-}
-
-.vfrc-system-response .vfrc-message,
-.vfrc-system-response .vfrc-message .markdown {
-  max-width: 100% !important;    /* Gebruik volledige breedte container */
-  width: 100% !important;
-  padding: 0 16px !important;    /* Voeg wat horizontale marge toe zodat tekst niet tegen de rand zit */
-}
-
-/* 0.3.1 Verberg avatar bij systeemberichten die geen kaart bevatten */
-.vfrc-system-response:not(:has(.vfrc-card)) .vfrc-avatar {
-  display: none !important;
-}
-
-
 /* 0. Zwarte achtergrond voor de header */
 .vfrc-header {
   background-color: #072130 !important;
