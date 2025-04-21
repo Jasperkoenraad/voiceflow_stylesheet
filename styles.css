@@ -262,28 +262,28 @@
   color: #ffffff !important;
 }
 
-/* 17. AUDIO BLOCk styling binnen kaarten */
-.vfrc-card--content .audio-block {
-  background-color: #f7f7f7 !important;
+/* 17 AUDIO BLOCK: donkerblauwe variant */
+.vfrc-card--content .audio-block.dark {
+  background-color: #003366 !important;
   border-radius: 12px !important;
   padding: 16px !important;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05) !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1) !important;
   text-align: center !important;
   margin: 16px auto !important;
   max-width: 500px !important;
-  color: #333 !important;
+  color: #ffffff !important;
   font-size: 15px !important;
 }
 
-/* 17. Zorg dat de <p> erboven mooi wordt gestyled */
-.vfrc-card--content .audio-block p {
+/* 17 Titel erboven */
+.vfrc-card--content .audio-block.dark p {
   margin-bottom: 8px !important;
-  color: #333 !important;
+  color: #ffffff !important;
   font-size: 15px !important;
 }
 
-/* 17. Audio player zelf */
-.vfrc-card--content .audio-block audio {
+/* 17 Audio player zelf */
+.vfrc-card--content .audio-block.dark audio {
   width: 100% !important;
   max-width: 400px !important;
   border-radius: 6px !important;
@@ -292,11 +292,11 @@
   background-color: transparent !important;
 }
 
-/* 17. Verberg extra controls */
-.vfrc-card--content .audio-block audio::-webkit-media-controls-timeline,
-.vfrc-card--content .audio-block audio::-webkit-media-controls-volume-slider,
-.vfrc-card--content .audio-block audio::-webkit-media-controls-mute-button,
-.vfrc-card--content .audio-block audio::-webkit-media-controls-playback-rate {
+/* 17 Verberg extra controls */
+.vfrc-card--content .audio-block.dark audio::-webkit-media-controls-timeline,
+.vfrc-card--content .audio-block.dark audio::-webkit-media-controls-volume-slider,
+.vfrc-card--content .audio-block.dark audio::-webkit-media-controls-mute-button,
+.vfrc-card--content .audio-block.dark audio::-webkit-media-controls-playback-rate {
   display: none !important;
 }
 
