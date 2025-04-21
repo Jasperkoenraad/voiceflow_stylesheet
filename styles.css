@@ -27,7 +27,7 @@
 
 /* 0.2 Transparante of gekleurde achtergrond voor kaarten (cards) */
 .vfrc-card {
-  background-color: rgba(255, 255, 255, 0.0) !important; /* Witte achtergrond, 60% dekking */
+  background-color: rgba(255, 255, 255, 0.4) !important; /* Witte achtergrond, 40% dekking */
   border-radius: 12px !important;
   padding: 12px !important;
   margin-bottom: 12px !important;
@@ -40,7 +40,7 @@
 .vfrc-system-response,
 .vfrc-message .markdown,
 .vfrc-message .markdown p {
-  background-color: rgba(255, 255, 255, 0.0) !important; /* Volledig transparant */
+  background-color: rgba(255, 255, 255, 0.4) !important; /* Witte achtergrond, 40% dekking *//
   border-radius: 12px !important;
   padding: 12px !important;
   margin-bottom: 12px !important;
@@ -51,7 +51,7 @@
 /* 0.3.1 Gebruikers-chatballon (user response) volledig transparant */
 .vfrc-user-response,
 .vfrc-user-response > div {
-  background-color: rgba(0, 51, 102, 0.0) !important; /* Donkerblauw, volledig transparant */
+  background-color: rgba(255, 255, 255, 0.4) !important; /* Witte achtergrond, 40% dekking */
   border-radius: 12px !important;
   padding: 12px !important;
   margin-bottom: 12px !important;
