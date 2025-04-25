@@ -12,3 +12,67 @@
   overflow-y: auto !important;   /* scroll inside the field */
   resize: none !important;       /* prevent manual resizing */
 }
+
+/* 1. Remove header rounded corners */
+.vfrc-header,
+.vfrc-chat {
+  border-top-left-radius: 0 !important;
+  border-top-right-radius: 0 !important;
+}
+
+/* 4. Increase size of input buttons (send, mic) */
+.vfrc-chat-input--button svg {
+  width: 26px !important;
+  height: 26px !important;
+}
+.vfrc-chat-input--button {
+  padding: 10px !important;
+}
+
+
+/* 6. Increase size of all icons */
+.vfrc-icon svg {
+  width: 32px !important;
+  height: 32px !important;
+}
+.vfrc-icon {
+  padding: 4px !important;
+}
+
+/* 6.2 Ensure the icon fills the space and is centered */
+.vfrc-header--button .vfrc-icon {
+  width: 30px !important;
+  height: 30px !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+/* Target the 'Send' button without the '_12m8tlu1' class */
+#vfrc-send-message:not(._12m8tlu1) {
+  background-color: #128c7e !important;
+}
+
+/* 7.3. Visuele vervanging: "Start new chat" wordt "Start tour" */
+#vfrc-start-chat {
+  position: relative;
+  color: transparent !important;           /* Verberg originele tekst */
+  background-color: #072130 !important;    /* Groenblauwe achtergrond */
+  border: none !important;
+  border-radius: 6px !important;
+  padding: 10px 16px !important;
+  font-size: 16px !important;
+}
+
+#vfrc-start-chat::after {
+  content: "Vraag stellen";
+  color: white;
+  font-size: 16px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+}
