@@ -128,8 +128,7 @@
 
   /**********Hide everything within the chat screen by changing it colour to the same as the header and footer**************** */
 /* 0. verwijder praat wolkje als voiceflow text genereert */
-.vfrc-system-response--indicator,
-.vfrc-system-response--controls {
+.vfrc-typing-indicator {
   display: none !important;
 }
 
