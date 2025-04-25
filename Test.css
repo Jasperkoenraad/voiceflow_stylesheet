@@ -1,11 +1,8 @@
-/* Hide everything in the chat interface */
+/* Hide all chat elements except header and footer */
 .voiceflow-chat,
 .vfrc-chat,
-.vfrc-chat--overlay,
 .vfrc-chat--dialog,
-.vfrc-chat--spacer,
-.vfrc-chat--session-time,
-.vfrc-chat--status,
+.vfrc-chat--overlay,
 .vfrc-message,
 .vfrc-user-response,
 .vfrc-system-response,
@@ -29,6 +26,9 @@
 .vfrc-timestamp,
 .vfrc-prompt,
 .vfrc-launcher,
+.vfrc-chat--spacer,
+.vfrc-chat--session-time,
+.vfrc-chat--status,
 .vfrc-system-response .vfrc-message,
 .vfrc-system-response .vfrc-button,
 .vfrc-user-response .vfrc-message {
@@ -36,12 +36,37 @@
   visibility: hidden !important;
 }
 
-/* KEEP these visible */
+/* Force full height layout */
+html, body, .vfrc-chat {
+  height: 100% !important;
+  background: #07203E !important; /* or any color you want */
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+/* Show only header and footer */
+.vfrc-header,
 .vf-footer,
 .vfrc-input,
 .vfrc-chat-input--button,
-.vfrc-footer--watermark,
-.vfrc-header {
+.vfrc-footer--watermark {
   display: block !important;
   visibility: visible !important;
+}
+
+/* Optional: make header and footer fixed */
+.vfrc-header {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+
+.vf-footer {
+  position: fixed !important;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
 }
