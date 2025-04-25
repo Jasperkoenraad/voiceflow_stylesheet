@@ -171,13 +171,15 @@
   border-radius: 6px;
 }
 
-/* 5. Input field text (invisible) */
+/* 5. Input field text (keep font size normal 18px) */
 .vfrc-chat-input,
 .vfrc-chat-input::placeholder {
   background-color: white !important;
   color: #07203E !important;
-  font-size: 1px !important;
+  font-size: 18px !important; /* ✅ Set specifically to 18px */
+  line-height: normal !important;
 }
+
 
 /* 6. Hide icons in chat body (but NOT header) */
 .vfrc-chat .vfrc-icon svg path {
