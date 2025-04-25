@@ -32,14 +32,6 @@
   font-size: 16px !important;
 }
 
-/* 15. Make the input field background transparent */
-.vfrc-chat-input {
-  background-color: transparent !important;
-  color: #000 !important;
-  border: none !important;
-  box-shadow: none !important;
-}
-
 /* Target the 'Send' button without the '_12m8tlu1' class */
 #vfrc-send-message:not(._12m8tlu1) {
   background-color: #128c7e !important;
