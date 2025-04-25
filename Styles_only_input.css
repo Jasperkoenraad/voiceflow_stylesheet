@@ -25,6 +25,16 @@
   border-top-right-radius: 0 !important;
 }
 
+/* --- Remove rounded corners from the footer --- */
+.vfrc-footer {
+  border-radius: 0 !important;              /* Reset all corners */
+  border-top-left-radius: 0 !important;     /* Optional: explicitly set each corner */
+  border-top-right-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+}
+
+
 /* 4. Increase size of input buttons (send, mic) */
 .vfrc-chat-input--button svg {
   width: 26px !important;
