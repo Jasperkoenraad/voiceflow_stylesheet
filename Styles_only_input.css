@@ -129,10 +129,7 @@
 .vfrc-messages,
 .vfrc-chat--dialog,
 .vfrc-chat--status,
-.vfrc-chat--session-time,
-.vf-footer,
-.vfrc-header,
-.vfrc-footer--watermark {
+.vfrc-chat--session-time {
   background-color: #07203E !important;
   color: #07203E !important;
 }
@@ -151,12 +148,12 @@
   border-color: #07203E !important;
 }
 
-/* Text content inside messages */
-.vfrc-message *,
-.vfrc-user-response *,
-.vfrc-system-response *,
-.vfrc-button,
-.vfrc-button *,
+/* Text content inside messages — excluding header/footer */
+.vfrc-message *:not(.vfrc-header *):not(.vf-footer *),
+.vfrc-user-response *:not(.vfrc-header *):not(.vf-footer *),
+.vfrc-system-response *:not(.vfrc-header *):not(.vf-footer *),
+.vfrc-button:not(.vfrc-header *):not(.vf-footer *),
+.vfrc-button *:not(.vfrc-header *):not(.vf-footer *),
 .vfrc-chat-input,
 .vfrc-chat-input::placeholder,
 .vfrc-assistant-info--title,
@@ -174,25 +171,25 @@
   color: #07203E !important;
 }
 
-/* Hide icons visually while keeping structure intact */
-.vfrc-icon svg path {
+/* Hide icons in the chat body visually, but NOT header/footer icons */
+.vfrc-chat .vfrc-icon svg path {
   fill: #07203E !important;
 }
 
-/* Make all fonts as small as possible */
-.vfrc-chat,
-.vfrc-chat *,
+/* Make all fonts as small as possible — excluding header and footer */
 .vfrc-message,
 .vfrc-message *,
-.vfrc-button,
-.vfrc-button *,
+.vfrc-user-response,
+.vfrc-user-response *,
+.vfrc-system-response,
+.vfrc-system-response *,
 .vfrc-chat-input,
 .vfrc-chat-input::placeholder,
+.vfrc-button,
+.vfrc-button *,
 .vfrc-assistant-info--title,
 .vfrc-assistant-info--description,
-.vfrc-timestamp,
-.vfrc-user-response,
-.vfrc-system-response {
+.vfrc-timestamp {
   font-size: 1px !important;
   line-height: 1 !important;
 }
