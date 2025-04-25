@@ -127,6 +127,12 @@
 }
 
   /**********Hide everything within the chat screen by changing it colour to the same as the header and footer**************** */
+/* 0. verwijder praat wolkje als voiceflow text genereert */
+.vfrc-system-response--indicator,
+.vfrc-system-response--controls {
+  display: none !important;
+}
+
 
 /* 1. General chat background and chat body */
 .vfrc-chat,
@@ -191,7 +197,7 @@
   outline: none !important;    /* Removes the blue glow when clicking inside */
 }
 
-/* 5.1 Remove input container
+/* 5.2 Remove input container
 .vfrc-input-container {
   border: none !important;
   box-shadow: none !important;
