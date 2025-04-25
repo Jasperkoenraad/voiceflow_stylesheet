@@ -1,9 +1,17 @@
-/* --- PBackground colour of chat input --- */
+/* --- PBackground colour and padding of chat input --- */
 ._1vj16245 {
-    padding: 30px 28px;
-    position: relative;
-    background: #07203E !important;
+  background: #07203E !important;
+  position: relative;
+
+  /* Explicit padding control */
+  padding-top: 20px !important;     /* Space above the content */
+  padding-bottom: 10px !important;  /* Space below the content */
+
+  /* Leave left/right padding as-is or define them separately */
+  padding-left: 28px !important;
+  padding-right: 28px !important;
 }
+
 
 /* --- Prevent the chat input field from growing in height when typing multiple lines --- */
 .vfrc-chat-input {
