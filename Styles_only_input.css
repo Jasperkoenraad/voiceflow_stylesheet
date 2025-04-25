@@ -51,6 +51,10 @@
   padding: 10px !important;
 }
 
+
+
+
+
 /* Target the 'Send' button without the '_12m8tlu1' class */
 #vfrc-send-message:not(._12m8tlu1) {
   background-color: #07203E !important;
@@ -179,6 +183,20 @@
   font-size: 18px !important; /* ✅ Set specifically to 18px */
   line-height: normal !important;
 }
+
+/* 5.1 Remove border text input */
+.vfrc-chat-input {
+  border: none !important;
+  box-shadow: none !important; /* Also removes any subtle shadow */
+  outline: none !important;    /* Removes the blue glow when clicking inside */
+}
+
+/* 5.1 Remove input container
+.vfrc-input-container {
+  border: none !important;
+  box-shadow: none !important;
+}
+
 
 
 /* 6. Hide icons in chat body (but NOT header) */
