@@ -124,7 +124,7 @@
 
   /**********Hide everything within the chat screen by changing it colour to the same as the header and footer**************** */
 
-/* Entire chat container and background elements */
+/* 1. General chat background and chat body */
 .vfrc-chat,
 .vfrc-messages,
 .vfrc-chat--dialog,
@@ -134,7 +134,7 @@
   color: #07203E !important;
 }
 
-/* Message bubbles (assistant + user) */
+/* 2. Message bubbles (assistant + user) */
 .vfrc-message,
 .vfrc-user-response,
 .vfrc-system-response,
@@ -148,49 +148,63 @@
   border-color: #07203E !important;
 }
 
-/* Text content inside messages — excluding header/footer */
-.vfrc-message *:not(.vfrc-header *):not(.vf-footer *),
-.vfrc-user-response *:not(.vfrc-header *):not(.vf-footer *),
-.vfrc-system-response *:not(.vfrc-header *):not(.vf-footer *),
-.vfrc-button:not(.vfrc-header *):not(.vf-footer *),
-.vfrc-button *:not(.vfrc-header *):not(.vf-footer *),
+/* 3. Hide all message text */
+.vfrc-message *,
+.vfrc-user-response *,
+.vfrc-system-response *,
+.vfrc-button:not(.vfrc-header--button),
+.vfrc-button:not(.vfrc-header--button) *,
 .vfrc-chat-input,
 .vfrc-chat-input::placeholder,
-.vfrc-assistant-info--title,
-.vfrc-assistant-info--description,
 .vfrc-timestamp {
   color: #07203E !important;
   background-color: #07203E !important;
   border-color: #07203E !important;
+  font-size: 1px !important;
+  line-height: 1 !important;
 }
 
-/* Input container */
-.vfrc-input-container,
-.vfrc-chat-input {
-  background-color: #07203E !important;
+/* 4. Make input container visible with white background */
+.vfrc-input-container {
+  background-color: white !important;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+/* 5. Input field text (invisible) */
+.vfrc-chat-input,
+.vfrc-chat-input::placeholder {
+  background-color: white !important;
   color: #07203E !important;
+  font-size: 1px !important;
 }
 
-/* Hide icons in the chat body visually, but NOT header/footer icons */
+/* 6. Hide icons in chat body (but NOT header) */
 .vfrc-chat .vfrc-icon svg path {
   fill: #07203E !important;
 }
 
-/* Make all fonts as small as possible — excluding header and footer */
-.vfrc-message,
-.vfrc-message *,
-.vfrc-user-response,
-.vfrc-user-response *,
-.vfrc-system-response,
-.vfrc-system-response *,
-.vfrc-chat-input,
-.vfrc-chat-input::placeholder,
-.vfrc-button,
-.vfrc-button *,
+/* 7. Keep header and footer visible */
+.vfrc-header,
+.vfrc-header *,
+.vf-footer,
+.vf-footer * {
+  background-color: #07203E !important;
+  color: white !important;
+  fill: white !important;
+}
+
+/* 8. Specifically force header icons to be white */
+.vfrc-header--button .vfrc-icon svg path {
+  fill: white !important;
+}
+
+/* 9. Preserve font size for assistant title & description */
 .vfrc-assistant-info--title,
-.vfrc-assistant-info--description,
-.vfrc-timestamp {
-  font-size: 1px !important;
-  line-height: 1 !important;
+.vfrc-assistant-info--description {
+  color: #07203E !important;
+  background-color: #07203E !important;
+  border-color: #07203E !important;
+  /* ✅ No font-size override here */
 }
 
