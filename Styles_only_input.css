@@ -1,1 +1,56 @@
+/* 3. Increase footer height */
+.vf-footer {
+  min-height: 70px !important;
+  padding-top: 12px !important;
+  padding-bottom: 12px !important;
+}
+
+/* 4. Increase size of input buttons (send, mic) */
+.vfrc-chat-input--button svg {
+  width: 26px !important;
+  height: 26px !important;
+}
+.vfrc-chat-input--button {
+  padding: 10px !important;
+}
+
+/* 5. Footer watermark font size */
+.vfrc-footer--watermark {
+  font-size: 16px !important;
+}
+
+/* 15. Make the input field background transparent */
+.vfrc-chat-input {
+  background-color: transparent !important;
+  color: #000 !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+/* Target the 'Send' button without the '_12m8tlu1' class */
+#vfrc-send-message:not(._12m8tlu1) {
+  background-color: #128c7e !important;
+}
+
+/* 7.3. Visuele vervanging: "Start new chat" wordt "Start tour" */
+#vfrc-start-chat {
+  position: relative;
+  color: transparent !important;
+  background-color: #072130 !important;
+  border: none !important;
+  border-radius: 6px !important;
+  padding: 10px 16px !important;
+  font-size: 16px !important;
+}
+
+#vfrc-start-chat::after {
+  content: "Start tour";
+  color: white;
+  font-size: 16px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+}
 
