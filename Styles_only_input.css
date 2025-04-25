@@ -12,12 +12,6 @@
   padding-right: 28px !important;
 }
 
-  /* Colour of the chat background */
-.vfrc-chat {
-  background-color: yellow !important;
-}
-
-
 /* --- Prevent the chat input field from growing in height when typing multiple lines --- */
 .vfrc-chat-input {
   height: 40px !important;       /* or your preferred height */
@@ -127,3 +121,11 @@
   max-height: none !important;
   display: block !important;
 }
+
+  /**********Hide everything within the chat screen by changing it colour to the same as the header and footer**************** */
+
+  /* Colour of the chat background */
+.vfrc-chat {
+  background-color: #07203E !important;
+}
+
