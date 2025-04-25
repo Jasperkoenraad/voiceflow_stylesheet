@@ -34,30 +34,9 @@
   padding: 10px !important;
 }
 
-
-/* 6. Increase size of all icons */
-.vfrc-icon svg {
-  width: 32px !important;
-  height: 32px !important;
-}
-.vfrc-icon {
-  padding: 4px !important;
-}
-
-/* 6.2 Ensure the icon fills the space and is centered */
-.vfrc-header--button .vfrc-icon {
-  width: 30px !important;
-  height: 30px !important;
-  padding: 0 !important;
-  margin: 0 !important;
-  display: flex !important;
-  align-items: center !important;
-  justify-content: center !important;
-}
-
 /* Target the 'Send' button without the '_12m8tlu1' class */
 #vfrc-send-message:not(._12m8tlu1) {
-  background-color: #128c7e !important;
+  background-color: #07203E !important;
 }
 
 /* 7.3. Visuele vervanging: "Start new chat" wordt "Start tour" */
@@ -80,4 +59,48 @@
   left: 50%;
   transform: translate(-50%, -50%);
   pointer-events: none;
+}
+
+/* 6. Increase size of all icons */
+.vfrc-icon svg {
+  width: 32px !important;
+  height: 32px !important;
+}
+.vfrc-icon {
+  padding: 4px !important;
+}
+
+
+/* 6.1 Ensure the header button is square and centers its contents */
+.vfrc-header--button {
+  width: 40px !important;
+  height: 40px !important;
+  padding: 0 !important;
+  margin: 0 4px !important; /* optional spacing between buttons */
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  line-height: 0 !important; /* prevent text alignment issues */
+}
+
+/* 6.2 Ensure the icon fills the space and is centered */
+.vfrc-header--button .vfrc-icon {
+  width: 30px !important;
+  height: 30px !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+/* 6.3 Force SVG to take exact size */
+.vfrc-header--button .vfrc-icon svg {
+  width: 30px !important;
+  height: 30px !important;
+  min-width: 30px !important;
+  min-height: 30px !important;
+  max-width: none !important;
+  max-height: none !important;
+  display: block !important;
 }
