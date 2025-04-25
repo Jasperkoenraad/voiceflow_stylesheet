@@ -134,8 +134,7 @@
 }
 
 /* Hide the typing bubble container */
-.vfrc-system-response.typing,
-.vfrc-message.typing {
+.vfrc-message:has(.vfrc-typing-indicator) {
   display: none !important;
 }
 
