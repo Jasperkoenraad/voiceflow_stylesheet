@@ -1,0 +1,47 @@
+/* Hide everything in the chat interface */
+.voiceflow-chat,
+.vfrc-chat,
+.vfrc-chat--overlay,
+.vfrc-chat--dialog,
+.vfrc-chat--spacer,
+.vfrc-chat--session-time,
+.vfrc-chat--status,
+.vfrc-message,
+.vfrc-user-response,
+.vfrc-system-response,
+.vfrc-system-response--indicator,
+.vfrc-system-response--controls,
+.vfrc-system-response--list,
+.vfrc-system-response--actions,
+.vfrc-button,
+.vfrc-image,
+.vfrc-image--background,
+.vfrc-card--content,
+.vfrc-card--header,
+.vfrc-card--description,
+.vfrc-carousel,
+.vfrc-carousel--button,
+.vfrc-assistant-info,
+.vfrc-assistant-info--title,
+.vfrc-assistant-info--description,
+.vfrc-avatar,
+.vfrc-icon,
+.vfrc-timestamp,
+.vfrc-prompt,
+.vfrc-launcher,
+.vfrc-system-response .vfrc-message,
+.vfrc-system-response .vfrc-button,
+.vfrc-user-response .vfrc-message {
+  display: none !important;
+  visibility: hidden !important;
+}
+
+/* KEEP these visible */
+.vf-footer,
+.vfrc-input,
+.vfrc-chat-input--button,
+.vfrc-footer--watermark,
+.vfrc-header {
+  display: block !important;
+  visibility: visible !important;
+}
