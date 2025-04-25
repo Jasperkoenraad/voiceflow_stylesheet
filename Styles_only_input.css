@@ -1,3 +1,16 @@
+/* 1. Header background color */
+.vfrc-header {
+  background-color: #07203E !important;
+}
+
+/* 2. Footer background color */
+.vfrc-footer {
+  background-color: #07203E !important;
+  min-height: 70px !important;
+  padding-top: 12px !important;
+  padding-bottom: 12px !important;
+}
+
 /* 3. Increase footer height */
 .vf-footer {
   min-height: 70px !important;
