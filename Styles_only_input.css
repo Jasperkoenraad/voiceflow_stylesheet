@@ -13,6 +13,11 @@
   resize: none !important;       /* prevent manual resizing */
 }
 
+/* 0. Achtergrond kleur voor de header */
+.vfrc-header {
+  background-color: #07203E !important;
+}
+
 /* 1. Remove header rounded corners */
 .vfrc-header,
 .vfrc-chat {
