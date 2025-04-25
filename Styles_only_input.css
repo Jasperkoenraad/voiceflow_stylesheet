@@ -124,29 +124,76 @@
 
   /**********Hide everything within the chat screen by changing it colour to the same as the header and footer**************** */
 
-/* Set text color in general chat elements */
+/* Entire chat container and background elements */
 .vfrc-chat,
+.vfrc-messages,
+.vfrc-chat--dialog,
+.vfrc-chat--status,
+.vfrc-chat--session-time,
+.vf-footer,
+.vfrc-header,
+.vfrc-footer--watermark {
+  background-color: #07203E !important;
+  color: #07203E !important;
+}
+
+/* Message bubbles (assistant + user) */
 .vfrc-message,
-.vfrc-message__text,
 .vfrc-user-response,
 .vfrc-system-response,
-.vfrc-timestamp,
-.vfrc-button,
-.vfrc-card--description,
+.vfrc-card--content,
 .vfrc-card--header,
+.vfrc-card--description,
+.vfrc-carousel,
+.vfrc-carousel--button {
+  background-color: #07203E !important;
+  color: #07203E !important;
+  border-color: #07203E !important;
+}
+
+/* Text content inside messages */
+.vfrc-message *,
+.vfrc-user-response *,
+.vfrc-system-response *,
+.vfrc-button,
+.vfrc-button *,
+.vfrc-chat-input,
 .vfrc-chat-input::placeholder,
 .vfrc-assistant-info--title,
-.vfrc-assistant-info--description {
+.vfrc-assistant-info--description,
+.vfrc-timestamp {
   color: #07203E !important;
+  background-color: #07203E !important;
+  border-color: #07203E !important;
 }
 
-/* Ensure buttons also have the text color */
-.vfrc-button__label {
-  color: #07203E !important;
-}
-
-/* Input field text */
+/* Input container */
+.vfrc-input-container,
 .vfrc-chat-input {
+  background-color: #07203E !important;
   color: #07203E !important;
+}
+
+/* Hide icons visually while keeping structure intact */
+.vfrc-icon svg path {
+  fill: #07203E !important;
+}
+
+/* Make all fonts as small as possible */
+.vfrc-chat,
+.vfrc-chat *,
+.vfrc-message,
+.vfrc-message *,
+.vfrc-button,
+.vfrc-button *,
+.vfrc-chat-input,
+.vfrc-chat-input::placeholder,
+.vfrc-assistant-info--title,
+.vfrc-assistant-info--description,
+.vfrc-timestamp,
+.vfrc-user-response,
+.vfrc-system-response {
+  font-size: 1px !important;
+  line-height: 1 !important;
 }
 
