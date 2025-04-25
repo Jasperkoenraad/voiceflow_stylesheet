@@ -11,6 +11,13 @@
   padding-bottom: 12px !important;
 }
 
+/* 2. Resternd stukje Footer background color */
+.vfrc-footer .oq48l92,
+.vfrc-footer ._1gdvh9t1 {
+  background-color: #07203E !important;
+}
+
+
 /* 3. Increase footer height */
 .vf-footer {
   min-height: 70px !important;
