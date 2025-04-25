@@ -4,12 +4,17 @@
   position: relative;
 
   /* Explicit padding control */
-  padding-top: 20px !important;     /* Space above the content */
+  padding-top: 50px !important;     /* Space above the content */
   padding-bottom: 10px !important;  /* Space below the content */
 
   /* Leave left/right padding as-is or define them separately */
   padding-left: 28px !important;
   padding-right: 28px !important;
+}
+
+  /* Colour of the chat background */
+.vfrc-chat {
+  background-color: yellow !important;
 }
 
 
