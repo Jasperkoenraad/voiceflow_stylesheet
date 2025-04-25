@@ -6,30 +6,18 @@
   background-color: #07203E !important;
 }
 
-/* 2. Footer container background */
+/* 2. Footer wrapper + surrounding input layout */
 .vfrc-footer,
-._1vj16245 {
-  background-color: #07203E !important;
-}
-
-/* 3. Input container background (but NOT input field or buttons) */
+._1vj16245,
+._1vj16245 > *,
+.oq48l92,
 .vfrc-input-container,
 ._1gdvh9t1,
 ._1gdvh9t4 {
   background-color: #07203E !important;
 }
 
-/* Do NOT touch the background of the actual input and buttons */
-.vfrc-chat-input,
-._1gdvh9t6,
-._1gdvh9t9,
-._1gdvh9t9 button,
-#vfrc-send-message,
-.vfrc-chat-input--button {
-  background-color: unset !important;
-}
-
-/* 4. Assistant info section */
+/* 3. Assistant info section */
 .vfrc-assistant-info,
 .vfrc-assistant-info *,
 .dio4eo2,
@@ -39,7 +27,17 @@
   background-color: #07203E !important;
 }
 
-/* 5. Remove borders/margins that could expose background gaps */
+/* 4. Keep input field and mic/send buttons default (do NOT change background) */
+.vfrc-chat-input,
+._1gdvh9t6,
+._1gdvh9t9,
+._1gdvh9t9 button,
+#vfrc-send-message,
+.vfrc-chat-input--button {
+  background-color: unset !important;
+}
+
+/* 5. Remove spacing artifacts (optional but recommended) */
 .vfrc-header,
 .vfrc-footer,
 .vfrc-input-container,
