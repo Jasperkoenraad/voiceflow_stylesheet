@@ -1,68 +1,38 @@
-/* 1. Header background color */
-.vfrc-header {
+/* 1. Header background */
+.vfrc-header,
+.vfrc-header *,
+.vfrc-header--button,
+.vfrc-header--button .vfrc-icon {
   background-color: #07203E !important;
 }
 
-/* 2. Footer background color */
-.vfrc-footer {
-  background-color: #07203E !important;
-  min-height: 70px !important;
-  padding-top: 12px !important;
-  padding-bottom: 12px !important;
-}
-
-/* 2. Resternd stukje Footer background color */
-.vfrc-footer .oq48l92,
-.vfrc-footer ._1gdvh9t1 {
-  background-color: #07203E !important;
-}
-
-
-/* 3. Increase footer height */
-.vf-footer {
-  min-height: 70px !important;
-  padding-top: 12px !important;
-  padding-bottom: 12px !important;
-}
-
-/* 4. Increase size of input buttons (send, mic) */
-.vfrc-chat-input--button svg {
-  width: 26px !important;
-  height: 26px !important;
-}
+/* 2. Footer and input background */
+.vfrc-footer,
+.vfrc-footer *,
+._1vj16245,
+._1vj16245 *,
+.vfrc-chat-input,
+.vfrc-input-container,
 .vfrc-chat-input--button {
-  padding: 10px !important;
+  background-color: #07203E !important;
 }
 
-/* 5. Footer watermark font size */
-.vfrc-footer--watermark {
-  font-size: 16px !important;
+/* 3. Assistant info section (image, title, description) */
+.vfrc-assistant-info,
+.vfrc-assistant-info *,
+.dio4eo2,
+.dio4eo3,
+.dio4eo4,
+.dio4eo5 {
+  background-color: #07203E !important;
 }
 
-/* Target the 'Send' button without the '_12m8tlu1' class */
-#vfrc-send-message:not(._12m8tlu1) {
-  background-color: #128c7e !important;
+/* 4. Remove any shadow or default padding/margin that might show white */
+.vfrc-header,
+.vfrc-footer,
+.vfrc-assistant-info,
+._1vj16245 {
+  box-shadow: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
 }
-
-/* 7.3. Visuele vervanging: "Start new chat" wordt "Start tour" */
-#vfrc-start-chat {
-  position: relative;
-  color: transparent !important;
-  background-color: #072130 !important;
-  border: none !important;
-  border-radius: 6px !important;
-  padding: 10px 16px !important;
-  font-size: 16px !important;
-}
-
-#vfrc-start-chat::after {
-  content: "Start tour";
-  color: white;
-  font-size: 16px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  pointer-events: none;
-}
-
