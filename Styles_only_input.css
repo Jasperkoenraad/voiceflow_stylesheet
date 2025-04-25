@@ -124,8 +124,29 @@
 
   /**********Hide everything within the chat screen by changing it colour to the same as the header and footer**************** */
 
-  /* Colour of the chat background */
-.vfrc-chat {
-  background-color: #07203E !important;
+/* Set text color in general chat elements */
+.vfrc-chat,
+.vfrc-message,
+.vfrc-message__text,
+.vfrc-user-response,
+.vfrc-system-response,
+.vfrc-timestamp,
+.vfrc-button,
+.vfrc-card--description,
+.vfrc-card--header,
+.vfrc-chat-input::placeholder,
+.vfrc-assistant-info--title,
+.vfrc-assistant-info--description {
+  color: #07203E !important;
+}
+
+/* Ensure buttons also have the text color */
+.vfrc-button__label {
+  color: #07203E !important;
+}
+
+/* Input field text */
+.vfrc-chat-input {
+  color: #07203E !important;
 }
 
