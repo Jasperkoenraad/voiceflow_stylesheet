@@ -1,50 +1,5 @@
-/* 1. Header background */
-.vfrc-header,
-.vfrc-header *,
-.vfrc-header--button,
-.vfrc-header--button .vfrc-icon {
-  background-color: #07203E !important;
-}
-
-/* 2. Footer wrapper + surrounding input layout */
-.vfrc-footer,
-._1vj16245,
-._1vj16245 > *,
-.oq48l92,
-.vfrc-input-container,
-._1gdvh9t1,
-._1gdvh9t4 {
-  background-color: #07203E !important;
-}
-
-/* 3. Assistant info section */
-.vfrc-assistant-info,
-.vfrc-assistant-info *,
-.dio4eo2,
-.dio4eo3,
-.dio4eo4,
-.dio4eo5 {
-  background-color: #07203E !important;
-}
-
-/* 4. Keep input field and mic/send buttons default (do NOT change background) */
-.vfrc-chat-input,
-._1gdvh9t6,
-._1gdvh9t9,
-._1gdvh9t9 button,
-#vfrc-send-message,
-.vfrc-chat-input--button {
-  background-color: unset !important;
-}
-
-/* 5. Remove spacing artifacts (optional but recommended) */
-.vfrc-header,
-.vfrc-footer,
-.vfrc-input-container,
-.vfrc-assistant-info,
 ._1vj16245 {
-  box-shadow: none !important;
-  border: none !important;
-  margin: 0 !important;
-  padding: 0 !important;
+    padding: 9px 28px;
+    position: relative;
+    background: #07203E !important;
 }
