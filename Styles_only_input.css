@@ -255,7 +255,7 @@
 
 
 /* ================================ */
-/* 🎙 MICROFOON KNOP STYLING        */
+/* 🎙 MICROFOON + VERZEND KNOPPEN    */
 /* ================================ */
 
 /* Container van beide knoppen */
@@ -264,6 +264,10 @@
   gap: 8px; /* Ruimte tussen de knoppen */
   align-items: center;
 }
+
+/* ================================ */
+/* 🎙 MICROFOON KNOP STYLING        */
+/* ================================ */
 
 /* Microfoonknop basis styling */
 ._1gdvh9ta {
@@ -277,8 +281,8 @@
   cursor: pointer;
   width: 50px;
   height: 50px;
-  
-  /* 🎨 Voeg smooth overgang toe */
+
+  /* 🎨 Smooth overgang bij hover */
   transition: background-color 0.2s ease, color 0.2s ease, fill 0.2s ease;
 }
 
@@ -291,7 +295,7 @@
 
 /* Hover effect voor microfoonknop */
 ._1gdvh9ta:hover {
-  background-color: #f0f0f0 !important; /* Lichtgrijs bij hover */
+  background-color: #f0f0f0 !important; /* Lichtgrijze achtergrond bij hover */
 }
 
 /* ================================ */
@@ -311,20 +315,23 @@
   width: 50px;
   height: 50px;
 
-  /* 🎨 Voeg smooth overgang toe */
+  /* 🎨 Smooth overgang bij hover */
   transition: background-color 0.2s ease, color 0.2s ease, fill 0.2s ease;
+
+  /* ✅ Belangrijk: Kleur voor het SVG-icoon */
+  color: #07203E !important; /* Donkerblauw zodat fill="currentColor" werkt */
 }
 
 /* SVG-icoon in verzendknop */
 #vfrc-send-message svg {
   width: 28px;
   height: 28px;
-  /* LET OP: Geen fill hier, want het zend-icoon moet wit blijven! */
+  /* LET OP: Geen extra fill hier aanpassen! */
 }
 
 /* Hover effect voor verzendknop */
 #vfrc-send-message:hover {
-  background-color: #f0f0f0 !important;
+  background-color: #f0f0f0 !important; /* Lichtgrijze achtergrond bij hover */
 }
 
 
