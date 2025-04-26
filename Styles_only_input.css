@@ -253,3 +253,67 @@
   /* ✅ No font-size override here */
 }
 
+
+/* ================================ */
+/* 🎙 MICROFOON KNOP STYLING        */
+/* ================================ */
+
+/* Container van beide knoppen */
+._1gdvh9t9 {
+  display: flex;
+  gap: 8px; /* Ruimte tussen de knoppen */
+  align-items: center;
+}
+
+/* Microfoonknop basis styling */
+._1gdvh9ta {
+  background-color: #0d2948 !important; /* Donkerblauwe achtergrond */
+  border: none !important;
+  padding: 10px;
+  border-radius: 50% !important; /* Volledig rond */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+/* SVG-icoon in microfoonknop */
+._1gdvh9ta svg {
+  width: 24px;
+  height: 24px;
+  fill: white !important; /* Icoon wit maken */
+}
+
+/* Hover effect voor microfoonknop */
+._1gdvh9ta:hover {
+  background-color: #1e3a5f !important; /* Donkerdere blauw bij hover */
+}
+
+/* ================================ */
+/* ✉️ VERZEND KNOP STYLING          */
+/* ================================ */
+
+/* Verzendknop basis styling */
+#vfrc-send-message {
+  background-color: #0d2948 !important; /* Donkerblauwe achtergrond */
+  border: none !important;
+  padding: 10px;
+  border-radius: 50% !important; /* Volledig rond */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+/* SVG-icoon in verzendknop */
+#vfrc-send-message svg {
+  width: 24px;
+  height: 24px;
+  fill: white !important; /* Icoon wit maken */
+}
+
+/* Hover effect voor verzendknop */
+#vfrc-send-message:hover {
+  background-color: #1e3a5f !important; /* Donkerdere blauw bij hover */
+}
+
