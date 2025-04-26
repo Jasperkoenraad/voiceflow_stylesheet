@@ -261,7 +261,7 @@
 /* Container van beide knoppen */
 ._1gdvh9t9 {
   display: flex;
-  gap: 8px; /* Ruimte tussen de knoppen */
+  gap: 8px;
   align-items: center;
 }
 
@@ -271,10 +271,10 @@
 
 /* Microfoonknop basis styling */
 ._1gdvh9ta {
-  background-color: #ffffff !important; /* Witte achtergrond */
+  background-color: #ffffff !important;
   border: none !important;
   padding: 12px;
-  border-radius: 50% !important; /* Volledig rond */
+  border-radius: 50% !important;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -282,7 +282,7 @@
   width: 50px;
   height: 50px;
 
-  /* 🎨 Smooth overgang bij hover */
+  /* Smooth overgang */
   transition: background-color 0.2s ease, color 0.2s ease, fill 0.2s ease;
 }
 
@@ -290,12 +290,12 @@
 ._1gdvh9ta svg {
   width: 28px;
   height: 28px;
-  fill: #07203E !important; /* Donkerblauw icoon */
+  fill: #07203E !important;
 }
 
 /* Hover effect voor microfoonknop */
 ._1gdvh9ta:hover {
-  background-color: #f0f0f0 !important; /* Lichtgrijze achtergrond bij hover */
+  background-color: #f0f0f0 !important;
 }
 
 /* ================================ */
@@ -304,10 +304,10 @@
 
 /* Verzendknop basis styling */
 #vfrc-send-message {
-  background-color: #ffffff !important; /* Witte achtergrond */
+  background-color: #ffffff !important;
   border: none !important;
   padding: 12px;
-  border-radius: 50% !important; /* Volledig rond */
+  border-radius: 50% !important;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -315,23 +315,24 @@
   width: 50px;
   height: 50px;
 
-  /* 🎨 Smooth overgang bij hover */
+  /* Smooth overgang */
   transition: background-color 0.2s ease, color 0.2s ease, fill 0.2s ease;
-
-  /* ✅ Belangrijk: Kleur voor het SVG-icoon */
-  color: #07203E !important; /* Donkerblauw zodat fill="currentColor" werkt */
 }
 
-/* SVG-icoon in verzendknop */
+/* SVG-icoon zelf */
 #vfrc-send-message svg {
   width: 28px;
   height: 28px;
-  /* LET OP: Geen extra fill hier aanpassen! */
+}
+
+/* BELANGRIJK: Target specifiek de path binnen het send-icoon */
+#vfrc-send-message svg path {
+  fill: white !important; /* Zorg dat de pijl wit wordt! */
 }
 
 /* Hover effect voor verzendknop */
 #vfrc-send-message:hover {
-  background-color: #f0f0f0 !important; /* Lichtgrijze achtergrond bij hover */
+  background-color: #f0f0f0 !important;
 }
 
 
