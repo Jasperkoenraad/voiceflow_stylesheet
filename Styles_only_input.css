@@ -261,7 +261,7 @@
 /* Container van beide knoppen */
 ._1gdvh9t9 {
   display: flex;
-  gap: 8px; /* Ruimte tussen de knoppen */
+  gap: 8px;
   align-items: center;
 }
 
@@ -274,20 +274,18 @@
   background-color: #ffffff !important; /* Witte achtergrond */
   border: none !important;
   padding: 12px;
-  border-radius: 50% !important; /* Volledig rond */
+  border-radius: 50% !important;
   display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
   width: 50px;
   height: 50px;
-
-  /* Smooth overgang */
-  transition: background-color 0.2s ease, fill 0.2s ease;
+  transition: background-color 0.2s ease;
 }
 
-/* SVG-icoon in microfoonknop */
-._1gdvh9ta svg {
+/* SVG binnen microfoonknop */
+._1gdvh9ta .vfrc-icon svg {
   width: 28px;
   height: 28px;
   fill: #07203E !important; /* Donkerblauw icoon */
@@ -299,8 +297,8 @@
   background-color: #07203E !important; /* Donkerblauwe achtergrond */
 }
 
-._1gdvh9ta:hover svg {
-  fill: #ffffff !important; /* Wit icoon bij hover */
+._1gdvh9ta:hover .vfrc-icon svg {
+  fill: #ffffff !important; /* Icoon wordt wit bij hover */
 }
 
 /* ================================ */
@@ -319,12 +317,10 @@
   cursor: pointer;
   width: 50px;
   height: 50px;
-
-  /* Smooth overgang */
-  transition: background-color 0.2s ease, fill 0.2s ease;
+  transition: background-color 0.2s ease;
 }
 
-/* SVG-icoon in verzendknop */
+/* SVG binnen verzendknop */
 #vfrc-send-message svg {
   width: 28px;
   height: 28px;
@@ -338,7 +334,7 @@
 }
 
 #vfrc-send-message:hover svg {
-  fill: #ffffff !important; /* Wit icoon bij hover */
+  fill: #ffffff !important; /* Icoon wordt wit bij hover */
 }
 
 
