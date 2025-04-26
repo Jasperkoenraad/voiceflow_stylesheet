@@ -212,13 +212,14 @@
 /* INPUT FOCUS STYLING       */
 /* ======================== */
 
-/* 5.1 Styling wanneer inputveld geselecteerd is (focus) */
+/* 5.1 Styling wanneer inputveld geselecteerd is (focus) - blijft nu gelijk, veranderd niets */
 .vfrc-chat-input:focus {
-  border: 1px solid #5AB9EA !important;   /* Lichtblauwe border bij focus */
-  box-shadow: 0 0 0 2px rgba(90, 185, 234, 0.3) !important; /* Subtiele glow */
-  outline: none !important;               /* Geen standaard browseroutline */
-  background-color: #0d2948 !important;   /* Houd achtergrond donkerblauw */
+  border: none !important;          /* Geen border bij focus */
+  box-shadow: none !important;       /* Geen subtiele glow */
+  outline: none !important;          /* Geen standaard browseroutline */
+  background-color: #0d2948 !important; /* Houd achtergrondkleur gelijk */
 }
+
 
 
 
