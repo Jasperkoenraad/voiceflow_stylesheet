@@ -179,13 +179,6 @@
   line-height: 1 !important;
 }
 
-/* 4. Make input container visible with white background */
-.vfrc-input-container {
-  background-color: #0d2948 !important;
-  padding: 10px;
-  border-radius: 30px;
-}
-
 /* ======================== */
 /* INPUT CONTAINER STYLING   */
 /* ======================== */
