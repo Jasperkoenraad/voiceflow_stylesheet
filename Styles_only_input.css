@@ -261,7 +261,7 @@
 /* Container van beide knoppen */
 ._1gdvh9t9 {
   display: flex;
-  gap: 8px;
+  gap: 8px; /* Ruimte tussen de knoppen */
   align-items: center;
 }
 
@@ -271,10 +271,10 @@
 
 /* Microfoonknop basis styling */
 ._1gdvh9ta {
-  background-color: #ffffff !important;
+  background-color: #ffffff !important; /* Witte achtergrond */
   border: none !important;
   padding: 12px;
-  border-radius: 50% !important;
+  border-radius: 50% !important; /* Volledig rond */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -283,19 +283,24 @@
   height: 50px;
 
   /* Smooth overgang */
-  transition: background-color 0.2s ease, color 0.2s ease, fill 0.2s ease;
+  transition: background-color 0.2s ease, fill 0.2s ease;
 }
 
 /* SVG-icoon in microfoonknop */
 ._1gdvh9ta svg {
   width: 28px;
   height: 28px;
-  fill: #07203E !important;
+  fill: #07203E !important; /* Donkerblauw icoon */
+  transition: fill 0.2s ease;
 }
 
 /* Hover effect voor microfoonknop */
 ._1gdvh9ta:hover {
-  background-color: #f0f0f0 !important;
+  background-color: #07203E !important; /* Donkerblauwe achtergrond */
+}
+
+._1gdvh9ta:hover svg {
+  fill: #ffffff !important; /* Wit icoon bij hover */
 }
 
 /* ================================ */
@@ -304,7 +309,7 @@
 
 /* Verzendknop basis styling */
 #vfrc-send-message {
-  background-color: #ffffff !important;
+  background-color: #ffffff !important; /* Witte achtergrond */
   border: none !important;
   padding: 12px;
   border-radius: 50% !important;
@@ -316,23 +321,25 @@
   height: 50px;
 
   /* Smooth overgang */
-  transition: background-color 0.2s ease, color 0.2s ease, fill 0.2s ease;
+  transition: background-color 0.2s ease, fill 0.2s ease;
 }
 
-/* SVG-icoon zelf */
+/* SVG-icoon in verzendknop */
 #vfrc-send-message svg {
   width: 28px;
   height: 28px;
-}
-
-/* BELANGRIJK: Target specifiek de path binnen het send-icoon */
-#vfrc-send-message svg path {
-  fill: white !important; /* Zorg dat de pijl wit wordt! */
+  fill: #07203E !important; /* Donkerblauw icoon */
+  transition: fill 0.2s ease;
 }
 
 /* Hover effect voor verzendknop */
 #vfrc-send-message:hover {
-  background-color: #f0f0f0 !important;
+  background-color: #07203E !important; /* Donkerblauwe achtergrond */
 }
+
+#vfrc-send-message:hover svg {
+  fill: #ffffff !important; /* Wit icoon bij hover */
+}
+
 
 
