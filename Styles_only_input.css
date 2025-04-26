@@ -275,8 +275,11 @@
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  width: 50px; /* Zorg dat knop altijd mooi rond blijft */
+  width: 50px;
   height: 50px;
+  
+  /* 🎨 Voeg smooth overgang toe */
+  transition: background-color 0.2s ease, color 0.2s ease, fill 0.2s ease;
 }
 
 /* SVG-icoon in microfoonknop */
@@ -305,20 +308,23 @@
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  width: 50px; /* Zelfde breedte/hoogte als microfoonknop */
+  width: 50px;
   height: 50px;
+
+  /* 🎨 Voeg smooth overgang toe */
+  transition: background-color 0.2s ease, color 0.2s ease, fill 0.2s ease;
 }
 
 /* SVG-icoon in verzendknop */
 #vfrc-send-message svg {
   width: 28px;
   height: 28px;
-  fill: #07203E !important; /* Donkerblauw icoon */
+  /* LET OP: Geen fill hier, want het zend-icoon moet wit blijven! */
 }
 
 /* Hover effect voor verzendknop */
 #vfrc-send-message:hover {
-  background-color: #f0f0f0 !important; /* Lichtgrijs bij hover */
+  background-color: #f0f0f0 !important;
 }
 
 
