@@ -189,7 +189,7 @@
 /* 5. Input field text (keep font size normal 18px) */
 .vfrc-chat-input,
 .vfrc-chat-input::placeholder {
-  background-color: #ffffff !important;
+  background-color: #0d2948 !important;
   color: #ffffff !important;
   font-size: 16px !important; /* ✅ Set specifically to 16px */
   line-height: normal !important;
