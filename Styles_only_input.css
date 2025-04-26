@@ -186,27 +186,47 @@
   border-radius: 30px;
 }
 
-/* 5. Input field text (keep font size normal 18px) */
+/* ======================== */
+/* INPUT CONTAINER STYLING   */
+/* ======================== */
+
+/* 4. Maak input container zichtbaar en stijl hem */
+.vfrc-input-container {
+  background-color: #0d2948 !important; /* Donkerblauwe achtergrond */
+  padding: 10px;
+  border-radius: 30px;                  /* Mooie ronde hoeken */
+  border: none !important;              /* Geen standaard border */
+  box-shadow: none !important;          /* Geen schaduw */
+}
+
+/* ======================== */
+/* INPUT VELD STYLING        */
+/* ======================== */
+
+/* 5. Algemene styling van het inputveld en de placeholder */
 .vfrc-chat-input,
 .vfrc-chat-input::placeholder {
-  background-color: #0d2948 !important;
-  color: #ffffff !important;
-  font-size: 16px !important; /* ✅ Set specifically to 16px */
+  background-color: #0d2948 !important; /* Matcht container */
+  color: #ffffff !important;             /* Witte tekst */
+  font-size: 16px !important;             /* Duidelijke leesbare tekst */
   line-height: normal !important;
+  border: none !important;               /* Verwijder standaard rand */
+  box-shadow: none !important;            /* Verwijder schaduw */
+  outline: none !important;               /* Verwijder browser-focusrand */
 }
 
-/* 5.1 Remove border text input */
-.vfrc-chat-input {
-  border: none !important;
-  box-shadow: none !important; /* Also removes any subtle shadow */
-  outline: none !important;    /* Removes the blue glow when clicking inside */
+/* ======================== */
+/* INPUT FOCUS STYLING       */
+/* ======================== */
+
+/* 5.1 Styling wanneer inputveld geselecteerd is (focus) */
+.vfrc-chat-input:focus {
+  border: 1px solid #5AB9EA !important;   /* Lichtblauwe border bij focus */
+  box-shadow: 0 0 0 2px rgba(90, 185, 234, 0.3) !important; /* Subtiele glow */
+  outline: none !important;               /* Geen standaard browseroutline */
+  background-color: #0d2948 !important;   /* Houd achtergrond donkerblauw */
 }
 
-/* 5.2 Remove input container
-.vfrc-input-container {
-  border: none !important;
-  box-shadow: none !important;
-}
 
 
 
