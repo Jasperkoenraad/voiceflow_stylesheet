@@ -261,7 +261,7 @@
 /* Container van beide knoppen */
 ._1gdvh9t9 {
   display: flex;
-  gap: 8px;
+  gap: 8px; /* Ruimte tussen de knoppen */
   align-items: center;
 }
 
@@ -274,17 +274,17 @@
   background-color: #ffffff !important; /* Witte achtergrond */
   border: none !important;
   padding: 12px;
-  border-radius: 50% !important;
+  border-radius: 50% !important; /* Rond */
+  width: 50px;
+  height: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  width: 50px;
-  height: 50px;
-  transition: background-color 0.2s ease;
+  transition: background-color 0.2s ease, fill 0.2s ease;
 }
 
-/* SVG binnen microfoonknop */
+/* SVG in microfoonknop */
 ._1gdvh9ta .vfrc-icon svg {
   width: 28px;
   height: 28px;
@@ -292,13 +292,13 @@
   transition: fill 0.2s ease;
 }
 
-/* Hover effect voor microfoonknop */
+/* Hover microfoon */
 ._1gdvh9ta:hover {
-  background-color: #07203E !important; /* Donkerblauwe achtergrond */
+  background-color: #07203E !important;
 }
 
 ._1gdvh9ta:hover .vfrc-icon svg {
-  fill: #ffffff !important; /* Icoon wordt wit bij hover */
+  fill: #ffffff !important;
 }
 
 /* ================================ */
@@ -311,16 +311,16 @@
   border: none !important;
   padding: 12px;
   border-radius: 50% !important;
+  width: 50px;
+  height: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  width: 50px;
-  height: 50px;
-  transition: background-color 0.2s ease;
+  transition: background-color 0.2s ease, fill 0.2s ease;
 }
 
-/* SVG binnen verzendknop */
+/* SVG in verzendknop */
 #vfrc-send-message svg {
   width: 28px;
   height: 28px;
@@ -328,14 +328,12 @@
   transition: fill 0.2s ease;
 }
 
-/* Hover effect voor verzendknop */
+/* Hover verzendknop */
 #vfrc-send-message:hover {
-  background-color: #07203E !important; /* Donkerblauwe achtergrond */
+  background-color: #07203E !important;
 }
 
 #vfrc-send-message:hover svg {
-  fill: #ffffff !important; /* Icoon wordt wit bij hover */
+  fill: #ffffff !important;
 }
-
-
 
