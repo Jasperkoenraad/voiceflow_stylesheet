@@ -57,23 +57,19 @@
   background-color: #07203E !important;
 }
 
-/* Verbeterde basis styling voor de Voiceflow startknop */
+/* 7.3. Visuele vervanging: "Start new chat" wordt "Start tour" */
 #vfrc-start-chat {
   position: relative;
-  color: transparent !important;        /* Tekst echt transparant maken */
-  background-color: #072130 !important;
+  color: transparent !important;           /* Verberg originele tekst */
+  background-color: #072130 !important;    /* Groenblauwe achtergrond */
   border: none !important;
   border-radius: 6px !important;
   padding: 10px 16px !important;
   font-size: 16px !important;
-  overflow: hidden;                     /* Nieuwe regel: voorkomt tekst buiten de knop */
 }
 
-/* Dynamische teksten afhankelijk van de taal */
-
-/* Nederlands */
-#vfrc-start-chat[data-language="Nederlands"]::after {
-  content: "Vraag stellen";
+#vfrc-start-chat::after {
+  content: "🗨️";
   color: white;
   font-size: 16px;
   position: absolute;
@@ -81,25 +77,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
   pointer-events: none;
-  width: 100%;                          /* Nieuwe regel: zorgt dat tekst netjes centreren werkt */
-  text-align: center;
 }
-
-/* Engels */
-#vfrc-start-chat[data-language="Engels"]::after {
-  content: "Ask a question";
-}
-
-/* Duits */
-#vfrc-start-chat[data-language="Duits"]::after {
-  content: "Frage stellen";
-}
-
-/* Frans */
-#vfrc-start-chat[data-language="Frans"]::after {
-  content: "Poser une question";
-}
-
 
 
 /* 6. Increase size of all icons */
