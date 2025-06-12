@@ -15,3 +15,26 @@
   border-color: #0056b3 !important;
 }
 
+/* Gesprek herstarten knop — verberg orgineel */
+#vfrc-start-chat {
+  position: relative;
+  color: transparent !important;           /* Verberg originele tekst */
+  background-color: #f28b82 !important;    /* Lichtrood */
+  border: none !important;
+  border-radius: 6px !important;
+  padding: 10px 16px !important;
+  font-size: 16px !important;
+  cursor: pointer;
+}
+
+/* Gesprek herstarten knop — nieuwe text */
+#vfrc-start-chat::after {
+  content: "Gesprek herstarten";           /* Nieuwe zichtbare tekst */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white !important;
+  font-weight: 500;
+  pointer-events: none;
+}
