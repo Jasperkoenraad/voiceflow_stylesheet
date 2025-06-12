@@ -4,13 +4,14 @@
 }
 
 /* ---  Change button colours --- */
-.vfrc-button {
-  background-color: #007bff !important;  /* Bootstrap blue */
-  color: white !important;
+.vfrc-system-response--actions .vfrc-button {
+  background-color: #007bff !important; /* heldere blauw */
+  color: #ffffff !important;
   border-color: #007bff !important;
 }
-.vfrc-button:hover {
-  background-color: #0056b3 !important;  /* Darker blue on hover */
+
+.vfrc-system-response--actions .vfrc-button:hover {
+  background-color: #0056b3 !important; /* donkerder blauw op hover */
   border-color: #0056b3 !important;
 }
 
