@@ -1,4 +1,9 @@
-/* --- Open - Change button colours --- */
+/* --- Change header colour --- */
+.vfrc-header {
+  background-color: #6F7190 !important;
+}
+
+/* ---  Change button colours --- */
 .vfrc-button {
   background-color: #007bff !important;  /* Bootstrap blue */
   color: white !important;
